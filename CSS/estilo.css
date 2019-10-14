@@ -79,6 +79,12 @@ a:visited {
   text-decoration-line: underline;
 }
 
+/*001*/
+nav {
+    display: flex;
+    align-content: flex-start;
+}
+
 /*002*/
 nav ul {
   list-style:none;
@@ -86,13 +92,12 @@ nav ul {
 
 /*003*/
 nav ul li {
-  float:left;
+  display: inline-block;
 }
 
 /*004*/
 nav ul li a{
   color:#860101;
-  display:block;
   padding:1em;
   text-decoration:none;
 }
