@@ -1,0 +1,107 @@
+/*001*/
+body {
+  font-family: Optima, sans-serif;
+  font-size: 1em;
+  line-height: 1.8;
+  color: #000000;
+  background-color: gray;
+  text-align: justify;
+}
+
+/*001*/
+header {
+  background-color:#DCDCDC; 
+  padding: 0.5em;
+  border-radius: 1em;
+}
+
+/*006*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  background-color:#DCDCDC;
+  color: #860101;
+  border-radius: 0.3em;
+  padding-left: 0.5em;
+  text-align: center;
+  margin: 0.1em;
+  text-transform: uppercase;  
+}
+
+/*003*/
+h1, h3, h5 {
+  font-stretch: expanded;
+}
+
+/*003*/
+h2, h4, h6 {
+  font-style: italic;
+}
+
+/*001*/
+h1 {
+  font-size: 3.5em;
+  letter-spacing: 2em;
+}
+
+/*001*/
+h2 {
+  font-size: 2em;
+}
+
+/*001*/
+h3 {
+  font-size: 1.5em;
+}
+
+/*001*/
+h4 {
+  font-size: 1.3em;
+}
+
+/*001*/
+h5 {
+  font-size: 1.2em;
+}
+
+/*001*/
+h6 {
+  font-size: 1.1em;
+}
+
+/*011*/
+a:link {
+  color: #860101;
+  text-decoration: underline dotted;
+}
+
+a:visited {
+  color: black;
+  text-decoration-line: underline;
+}
+
+/*002*/
+nav ul {
+  list-style:none;
+}
+
+/*003*/
+nav ul li {
+  float:left;
+}
+
+/*004*/
+nav ul li a{
+  color:#860101;
+  display:block;
+  padding:1em;
+  text-decoration:none;
+}
+
+/*002*/
+p::first-letter { 
+  font-size: 1.5em; 
+}
+
+video, img {
+  size: 40em;
+}
