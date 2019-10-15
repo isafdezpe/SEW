@@ -3,16 +3,18 @@ body {
   font-family: Optima, sans-serif;
   font-size: 1em;
   line-height: 1.8;
-  color: #000000;
+  color: #ffffff;
   background-color: gray;
   text-align: justify;
+  margin: auto;
+  width: 90%;
 }
 
 /*001*/
 header {
   background-color:#ffffff; 
-  padding: 0.5em;
   border-radius: 1em;
+  margin-bottom: 10px;
 }
 
 /*001*/
@@ -21,7 +23,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color:#ffffff;
   color: #B00101;
   border-radius: 0.3em;
-  padding-left: 0.5em;
   text-align: center;
   margin: 0.1em;
   text-transform: uppercase;  
@@ -45,7 +46,6 @@ h1 {
 
 /*001*/
 h2 {
-  margin-top: 1em;
   font-size: 2em;
 }
 
@@ -76,8 +76,12 @@ a:link {
 }
 
 a:visited {
-  color: black;
+  color: white;
   text-decoration-style: solid;
+}
+
+header nav ul li a:visited { 
+  color: black; 
 }
 
 /*001*/
@@ -132,6 +136,13 @@ th, td {
 
 /* 001 */
 footer { 
-  margin-top: 5%;
   clear: both; 
+}
+
+/*001*/
+article, main, section, footer {
+  background-color: black;
+  border-radius: 1em;
+  margin-top: 1px;
+  padding: 2%;
 }

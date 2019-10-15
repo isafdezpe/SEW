@@ -1,11 +1,14 @@
-body {
-  background-image: url(Multimedia/soprano.jpeg);
+main {
+  background-image: url(Multimedia/soprano.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position-y: 20em; 
   color: #000000;
 }
 
 p {
-  background-color: #EBE7E6;
+  color: white;
+}
+
+video {
+  margin: auto;
 }
