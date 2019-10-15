@@ -1,0 +1,11 @@
+body {
+  background-image: url(Multimedia/soprano.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 20em; 
+  color: #000000;
+}
+
+p {
+  background-color: #EBE7E6;
+}

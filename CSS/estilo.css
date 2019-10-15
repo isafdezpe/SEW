@@ -10,16 +10,16 @@ body {
 
 /*001*/
 header {
-  background-color:#DCDCDC; 
+  background-color:#ffffff; 
   padding: 0.5em;
   border-radius: 1em;
 }
 
-/*006*/
+/*001*/
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  background-color:#DCDCDC;
-  color: #860101;
+  background-color:#ffffff;
+  color: #B00101;
   border-radius: 0.3em;
   padding-left: 0.5em;
   text-align: center;
@@ -45,6 +45,7 @@ h1 {
 
 /*001*/
 h2 {
+  margin-top: 1em;
   font-size: 2em;
 }
 
@@ -70,13 +71,13 @@ h6 {
 
 /*011*/
 a:link {
-  color: #860101;
-  text-decoration: underline dotted;
+  color: #B00101;
+  text-decoration-style: dotted;
 }
 
 a:visited {
   color: black;
-  text-decoration-line: underline;
+  text-decoration-style: solid;
 }
 
 /*001*/
@@ -87,7 +88,7 @@ nav {
 
 /*002*/
 nav ul {
-  list-style:none;
+  list-style: none;
 }
 
 /*003*/
@@ -97,9 +98,7 @@ nav ul li {
 
 /*004*/
 nav ul li a{
-  color:#860101;
-  padding:1em;
-  text-decoration:none;
+  padding: 1em;
 }
 
 /*002*/
@@ -107,6 +106,32 @@ p::first-letter {
   font-size: 1.5em; 
 }
 
-video, img {
-  size: 40em;
+/*001*/ /*011*/
+video, img.img_css {
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 40%;
+  height: 40%;
+}
+
+/* 001 */
+table {
+  text-align: center;
+  margin-left: 5%;
+  width: 50%;
+  border-collapse: collapse;
+  border: 1px solid #B00101;
+}
+
+/* 001 */
+th, td {
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  border: 0.5px solid #B00101;
+}
+
+/* 001 */
+footer { 
+  margin-top: 5%;
+  clear: both; 
 }
