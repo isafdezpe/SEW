@@ -75,11 +75,13 @@ a:link {
   text-decoration-style: dotted;
 }
 
+/*011*/
 a:visited {
   color: white;
   text-decoration-style: solid;
 }
 
+/*015*/
 header nav ul li a:visited { 
   color: black; 
 }
