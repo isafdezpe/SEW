@@ -4,7 +4,7 @@ body {
   font-size: 1em;
   line-height: 1.8;
   color: #ffffff;
-  background-color: gray;
+  background-color: black;
   text-align: justify;
   margin: auto;
   width: 90%;
@@ -14,7 +14,7 @@ body {
 header {
   background-color:#ffffff; 
   border-radius: 1em;
-  margin-bottom: 10px;
+  margin-bottom: 2%;
 }
 
 /*001*/
@@ -41,7 +41,6 @@ h2, h4, h6 {
 /*001*/
 h1 {
   font-size: 3.5em;
-  letter-spacing: 2em;
 }
 
 /*001*/
@@ -71,14 +70,19 @@ h6 {
 
 /*011*/
 a:link {
-  color: #B00101;
-  text-decoration-style: dotted;
+  color: white;
+  text-decoration-line: none;
 }
 
 /*011*/
 a:visited {
-  color: white;
-  text-decoration-style: solid;
+  color: #F76768;
+  text-decoration-line: none;
+}
+
+/*015*/
+header nav ul li a:link { 
+  color: #B00101; 
 }
 
 /*015*/
@@ -124,7 +128,7 @@ video, img.img_css {
 table {
   text-align: center;
   margin-left: 5%;
-  width: 50%;
+  width: 70%;
   border-collapse: collapse;
   border: 1px solid #B00101;
 }
@@ -143,8 +147,6 @@ footer {
 
 /*001*/
 article, main, section, footer {
-  background-color: black;
-  border-radius: 1em;
-  margin-top: 1px;
+  margin-top: 2%;
   padding: 2%;
 }

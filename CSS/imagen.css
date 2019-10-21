@@ -1,3 +1,4 @@
+/*001*/
 main {
   background-image: url(Multimedia/soprano.jpg);
   background-repeat: no-repeat;
@@ -5,10 +6,12 @@ main {
   color: #000000;
 }
 
+/*001*/
 p {
   color: white;
 }
 
+/*001*/
 video {
   margin: auto;
 }

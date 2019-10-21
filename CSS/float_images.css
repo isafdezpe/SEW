@@ -1,0 +1,12 @@
+/*011*/
+img.img_css {
+    float:left;
+}
+
+#carniceria, #familia {
+    float: right;
+}
+
+p.parrafo_clear {
+    clear: left;
+}
