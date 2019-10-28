@@ -1,0 +1,18 @@
+main {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas: "a b c";
+}
+
+p.item1 {
+    grid-area: a;
+}
+
+p.item2 {
+    grid-area: b;
+}
+
+p.item3 {
+    grid-area: c;
+}

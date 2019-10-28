@@ -1,0 +1,21 @@
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background: gray;
+    color: white;
+}
+
+li {
+    background: darkturquoise;
+    width: 200px;
+    height: 150px;
+    
+    line-height: 150px;
+    color: black;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
