@@ -1,0 +1,4 @@
+Las diferencias entre ambos XML Schema son las siguientes:
+	- En el generado, todos los elementos eran de tipo string, mientras que el modificado especifica
+	los tipos de la fecha, la hora, la duración, y la nota de recomendación.
+	- En el generado no se especifica en todos los elementos el numero de ocurrencias.

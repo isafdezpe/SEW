@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="rutas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="ruta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tipo" type="xs:string" />
+              <xs:element name="transporte" type="xs:string" />
+              <xs:element minOccurs="0" name="fecha" type="xs:date" />
+              <xs:element minOccurs="0" name="hora" type="xs:string" />
+              <xs:element name="duracion" type="xs:duration" />
+              <xs:element name="agencia" type="xs:string" />
+              <xs:element name="descripcion" type="xs:string" />
+              <xs:element name="personas" type="xs:string" />
+              <xs:element name="lugar" type="xs:string" />
+              <xs:element name="direccion" type="xs:string" />
+              <xs:element name="coordenadas" type="xs:string" />
+              <xs:element maxOccurs="unbounded" name="referencia">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="ref-number" type="xs:unsignedByte" use="required" />
+                      <xs:attribute name="enlace" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="recomendacion" type="xs:unsignedByte" />
+              <xs:element name="hitos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="hito">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="descripcion-hito" type="xs:string" />
+                          <xs:element name="coordenadas-hito" type="xs:string" />
+                          <xs:element name="distancia">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:decimal">
+                                  <xs:attribute name="unidades" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="galeria">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="fotografia">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="archivo" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="nombre" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="nombre" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
