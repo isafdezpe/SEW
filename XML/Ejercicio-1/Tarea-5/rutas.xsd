@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.uniovi.es/alumnos" xmlns="http://www.uniovi.es/alumnos">
   <xs:element name="rutas">
     <xs:complexType>
       <xs:sequence>
-        <xs:element maxOccurs="unbounded" name="ruta">
+        <xs:element minOccurs="5" maxOccurs="unbounded" name="ruta">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="tipo" type="xs:string" />
               <xs:element name="transporte" type="xs:string" />
-              <xs:element minOccurs="0" name="fecha" type="xs:date" />
-              <xs:element minOccurs="0" name="hora" type="xs:string" />
+              <xs:element minOccurs="0" maxOccurs="1" name="fecha" type="xs:date" />
+              <xs:element minOccurs="0" maxOccurs="1" name="hora" type="xs:time" />
               <xs:element name="duracion" type="xs:duration" />
               <xs:element name="agencia" type="xs:string" />
               <xs:element name="descripcion" type="xs:string" />
@@ -17,7 +17,7 @@
               <xs:element name="lugar" type="xs:string" />
               <xs:element name="direccion" type="xs:string" />
               <xs:element name="coordenadas" type="xs:string" />
-              <xs:element maxOccurs="unbounded" name="referencia">
+              <xs:element minOccurs="3" maxOccurs="unbounded" name="referencia">
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
@@ -27,16 +27,23 @@
                   </xs:simpleContent>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="recomendacion" type="xs:unsignedByte" />
+              <xs:element name="recomendacion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:integer">
+                    <xs:minExclusive value="0"/>
+                    <xs:maxExclusive value="10"/>
+                  </xs:restriction>
+                </xs:simpleType> 
+              </xs:element>
               <xs:element name="hitos">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element maxOccurs="unbounded" name="hito">
+                    <xs:element minOccurs="3" maxOccurs="unbounded" name="hito">
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element name="descripcion-hito" type="xs:string" />
                           <xs:element name="coordenadas-hito" type="xs:string" />
-                          <xs:element name="distancia">
+                          <xs:element name="distancia" type="xs:double">
                             <xs:complexType>
                               <xs:simpleContent>
                                 <xs:extension base="xs:decimal">
@@ -48,7 +55,7 @@
                           <xs:element name="galeria">
                             <xs:complexType>
                               <xs:sequence>
-                                <xs:element maxOccurs="unbounded" name="fotografia">
+                                <xs:element minOccurs="1" maxOccurs="5" name="fotografia">
                                   <xs:complexType>
                                     <xs:simpleContent>
                                       <xs:extension base="xs:string">
@@ -57,6 +64,7 @@
                                     </xs:simpleContent>
                                   </xs:complexType>
                                 </xs:element>
+                                <xs:element minOccurs="0" maxOccurs="3" name="video"/>
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>
