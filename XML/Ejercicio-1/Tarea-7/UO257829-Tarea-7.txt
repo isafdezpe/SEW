@@ -1,10 +1,12 @@
 Las diferencias entre ambos XML SCHEMAS son las siguientes:
 	- El mínimo de rutas que pueden ponerse ha pasado de 1 a 5, utilizando la propiedad minOccurs.
+	- El elemento fecha pasa de ser de tipo string a tipo date.
 	- El elemento hora pasa de ser de tipo string a tipo time.
 	- El elemento duración pasa de ser de tipo string a duration.
-	- El mínimo de referencias ha pasado de 1 a 3, utilizando la propiedad minOccurs.
-	- El elemento recomendación ha pasado de ser de tipo unsignedByte a integer. Además se ha especificado que debe tomar valores entre 0 y 10.
+	- El mínimo de referencia ha pasado de 1 a 3, utilizando la propiedad minOccurs.
+	- El atributo ref-number de referencia pasa de ser de tipo string a integer.
+	- El elemento recomendación ha pasado de ser de tipo string a integer. Además se ha especificado que debe tomar valores entre 0 y 10.
 	- Se ha especificado que el mínimo de hitos deben ser 3, utilizando la propiedad minOccurs.
 	- Al elemento fotografía se le ha especificado un mínimo de 1 y un máximo de 5, utilizando minOccurs y maxOccurs.
-	- Se ha añadido el elemento video, que puede aparecer entre 0 y 3 veces.
-	- Se ha añadido el tipo double al atributo distancia.
+	- Se ha indicado que el elemento video puede aparecer entre 0 y 3 veces.
+	- Se ha modificado el tipo del atributo distancia, de string a double.

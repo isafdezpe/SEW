@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rutas xmlns="http://www.uniovi.es/alumnos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.uniovi.es/alumnos rutas.xsd"> 
+<rutas xmlns="http://www.uniovi.es/alumnos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.uniovi.es/alumnos rutas.xsd">
     <ruta nombre="Ruta por Oviedo">
         <tipo>Monumentos</tipo>
         <transporte>A pie</transporte>
@@ -22,8 +22,8 @@
                 <coordenadas-hito>-5.84476, 43.36029, 244</coordenadas-hito>
                 <distancia unidades="m">300</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Oviedo_aldeana_sculpture.jpg">Fotografía de la escultura</fotografia>
-                    <fotografia archivo="multimedia/trascorrales.jpg">Fotografía de la plaza</fotografia>
+                    <fotografia archivo="https://imgur.com/zDYfxRh.jpg">Fotografía de la escultura</fotografia>
+                    <fotografia archivo="https://imgur.com/Ox3s30q.jpg">Fotografía de la plaza</fotografia>
                 </galeria>
             </hito>
             <hito nombre="Vendedoras del Fontán">
@@ -31,7 +31,7 @@
                 <coordenadas-hito>-5.84476, 43.36029, 240</coordenadas-hito>
                 <distancia unidades="m">280</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Vendedoras_del_Fontan.jpg">Fotografía de la escultura</fotografia>
+                    <fotografia archivo="https://imgur.com/jHIFvt0.jpg">Fotografía de la escultura</fotografia>
                 </galeria>
             </hito>
             <hito nombre="¡Adiós, cordera!">
@@ -39,7 +39,7 @@
                 <coordenadas-hito>-5.8529224, 43.3621531, 244</coordenadas-hito>
                 <distancia unidades="m">850</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Adios_Cordera.jpg">Fotografía de la escultura</fotografia>
+                    <fotografia archivo="https://imgur.com/0J4EOw0.jpg">Fotografía de la escultura</fotografia>
                 </galeria>
             </hito>
         </hitos>
@@ -67,8 +67,8 @@
                 <coordenadas-hito>-6.1458061, 43.5633258, 17</coordenadas-hito>
                 <distancia unidades="km">39.4</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/cudillero.jpg">Puerto de Cudillero</fotografia>
-                    <fotografia archivo="multimedia/Cudillero-Faro-y-acantilado.jpg">Faro de Cudillero</fotografia>
+                    <fotografia archivo="https://imgur.com/rZuB3XJ.jpg">Puerto de Cudillero</fotografia>
+                    <fotografia archivo="https://imgur.com/uYoKjoD.jpg">Faro de Cudillero</fotografia>
                 </galeria>
             </hito>
             <hito nombre="Luanco">
@@ -76,8 +76,8 @@
                 <coordenadas-hito>-5.7938812, 43.6135047, 9</coordenadas-hito>
                 <distancia unidades="km">47.2</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/260px-Luanco_-_10.jpg">Casco histórico de Luanco</fotografia>
-                    <fotografia archivo="multimedia/210px-Torre_del_reloj_(Luanco).jpg">Torre del reloj</fotografia>
+                    <fotografia archivo="https://imgur.com/3CrmdSA.jpg">Casco histórico de Luanco</fotografia>
+                    <fotografia archivo="https://imgur.com/UlXDWSR.jpg">Torre del reloj</fotografia>
                 </galeria>
             </hito>
             <hito nombre="Lastres">
@@ -85,7 +85,7 @@
                 <coordenadas-hito>-5.2715325, 43.5140728, 84</coordenadas-hito>
                 <distancia unidades="km">60.4</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Lastres,_Asturias.jpg">Vista desde el mar</fotografia>
+                    <fotografia archivo="https://imgur.com/jHlFP5Q.jpg">Vista desde el mar</fotografia>
                 </galeria>
             </hito>
         </hitos>
@@ -113,7 +113,7 @@
                 <coordenadas-hito>5.6224727, 43.5087188, 67</coordenadas-hito>
                 <distancia unidades="km">7.1</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/c130x108_v1_bernueces.jpg"/>
+                    <fotografia archivo="https://imgur.com/zylqiIh.jpg"/>
                 </galeria>
             </hito>
             <hito nombre="Llagar Sidra Piñera">
@@ -121,7 +121,7 @@
                 <coordenadas-hito>-5.6067356, 43.5013872, 48</coordenadas-hito>
                 <distancia unidades="km">2.2</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/c130x108_v1_pipineraera.jpg"/>
+                    <fotografia archivo="https://imgur.com/rdEQsLs.jpg"/>
                 </galeria>
             </hito>
             <hito nombre="Sidra Acebal">
@@ -129,7 +129,7 @@
                 <coordenadas-hito>-5.5948297, 43.5266109, 88</coordenadas-hito>
                 <distancia unidades="kilometros">4.5</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/c130x108_v1_acebal.jpg"/>
+                    <fotografia archivo="https://imgur.com/WqEIQwd.jpg"/>
                 </galeria>
             </hito>
         </hitos>
@@ -154,8 +154,8 @@
                 <coordenadas-hito>-5.4011623, 43.5478655, 106</coordenadas-hito>
                 <distancia unidades="km">2.8</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/faro-de-tazones.jpg"/>
-                    <fotografia archivo="multimedia/faro-tazones-nueva.jpg"/>
+                    <fotografia archivo="https://imgur.com/oyfonkY.jpg"/>
+                    <fotografia archivo="https://imgur.com/80BqiJZ.jpg"/>
                 </galeria>
             </hito>
             <hito nombre="Acantilados de luces">
@@ -163,7 +163,7 @@
                 <coordenadas-hito>-5.3027151, 43.5341429, 30</coordenadas-hito>
                 <distancia unidades="km">28.3</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/luces.jpg"/>
+                    <fotografia archivo="https://imgur.com/olHQZLK.jpg"/>
                 </galeria>
             </hito>
             <hito nombre="Playa de la Vega">
@@ -171,8 +171,8 @@
                 <coordenadas-hito>-5.1486909, 43.4784731, 10</coordenadas-hito>
                 <distancia unidades="km">24.4</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/playa-de-vega-vertical.jpg"/>
-                    <fotografia archivo="multimedia/06vega.jpg"/>
+                    <fotografia archivo="https://imgur.com/iBipbVw.jpg"/>
+                    <fotografia archivo="https://imgur.com/4GEH46J.jpg"/>
                 </galeria>
             </hito>
         </hitos>
@@ -197,7 +197,7 @@
                 <coordenadas-hito>-7.0933846, 43.3453363, 425</coordenadas-hito>
                 <distancia unidades="km">3.3</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Ruta del Agua Taramundi Asturias (12).jpg"/>
+                    <fotografia archivo="https://imgur.com/GLD0lMA.jpg"/>
                 </galeria>
             </hito>
             <hito nombre="As Veigas">
@@ -205,8 +205,8 @@
                 <coordenadas-hito>-7.0879747, 43.3275932, 466</coordenadas-hito>
                 <distancia unidades="km">2.7</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Ruta del Agua Taramundi Asturias (16).JPG">Camino de As Veigas</fotografia>
-                    <fotografia archivo="multimedia/Ruta del Agua Taramundi Asturias (17).JPG">Aldea de As Veigas</fotografia>
+                    <fotografia archivo="https://imgur.com/cLAtBNA.jpg">Camino de As Veigas</fotografia>
+                    <fotografia archivo="https://imgur.com/2JxPvmq.jpg">Aldea de As Veigas</fotografia>
                 </galeria>
             </hito>
             <hito nombre="Os Teixóis">
@@ -214,8 +214,8 @@
                 <coordenadas-hito>-7.080602, 43.3410599, 375</coordenadas-hito>
                 <distancia unidades="km">4.7</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Conjunto Etnografico de Teixois Taramundi (1).JPG">Conjunto Etnografico Os Teixóis</fotografia>
-                    <fotografia archivo="multimedia/Conjunto Etnografico de Teixois Taramundi (2).JPG">Museo Os Teixóis</fotografia>
+                    <fotografia archivo="https://imgur.com/I16pxEo.jpg">Conjunto Etnografico Os Teixóis</fotografia>
+                    <fotografia archivo="https://imgur.com/jqyUJ10.jpg">Museo Os Teixóis</fotografia>
                 </galeria>
             </hito>
         </hitos>
