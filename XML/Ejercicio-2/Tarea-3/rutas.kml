@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<kml xmlns:kml="http://www.opengis.net/kml/2.2">
+    <Document>
+        <Folder>
+            <name>Ruta por Oviedo</name>
+            <description>Recorrido visitando los monumentos más conocidos de Oviedo</description>
+            <Placemark>
+                <name>Plaza de la catedral</name>
+                <Point><coordinates>43.362349, -5.844286, 241</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>La Lechera</name>
+                <Point><coordinates>43.36029, -5.84476, 244</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>Vendedoras del Fontán</name>
+                <Point><coordinates>43.36029, -5.84476, 240</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>¡Adiós, cordera!</name>
+                <Point><coordinates>43.3621531, -5.8529224, 244</coordinates></Point>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Ruta por la costa</name>
+            <description>Recorrido visitando lugares de la costa Asturiana</description>
+            <Placemark>
+                <name>Faro de Luarca</name>
+                <Point><coordinates>43.5496919, -6.5325156, 1</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>Cudillero</name>
+                <Point><coordinates>43.5633258, -6.1458061, 17</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>Luanco</name>
+                <Point><coordinates>43.6135047, -5.7938812, 9</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>Lastres</name>
+                <Point><coordinates>43.5140728, -5.2715325, 84</coordinates></Point>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Ruta de la sidra por Gijón</name>
+            <description>Recorrido por llagares de Gijón</description>
+            <Placemark>
+                <name>Llagar Sidra Trabanco</name>
+                <Point><coordinates>43.4706842, -5.6450155, 138</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>Llagar Bernueces</name>
+                <Point><coordinates>43.5087188, -5.6224727, 67</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>Llagar Sidra Piñera</name>
+                <Point><coordinates>43.5013872, -5.6067356, 48</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>Sidra Acebal</name>
+                <Point><coordinates>43.5266109, -5.5948297, 88</coordinates></Point>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Costa de los dinosaurios</name>
+            <description>Se conoce como “Costa de los Dinosaurios” al sector litoral de Asturias comprendido entre las localidades de Gijón y Ribadesella y caracterizado por la abundancia de huellas y restos óseos de dinosaurios y otros reptiles jurásicos.</description>
+            <Placemark>
+                <name>Puerto de Tazones</name>
+                <Point><coordinates>43.5457251, -5.3998889, 22</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>Faro de Tazones</name>
+                <Point><coordinates>43.5478655, -5.4011623, 106</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>Acantilados de luces</name>
+                <Point><coordinates>43.5341429, -5.3027151, 30</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>Playa de la Vega</name>
+                <Point><coordinates>43.4784731, -5.1486909, 10</coordinates></Point>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Ruta del agua de Taramundi</name>
+            <description>Magia es la palabra que puede describir esta ruta, en la que nuestros pasos nos llevan a un bosque galería por caminos y pequeñas carreteras que nos van descubriendo su etnografía en O Mazonovo y Os Teixóis/Teijóis, la artesanía de las navajas en Os Esquíos/Esquíos, la cascada Salgueira, el encanto y la armonía del pueblo de As Veigas/Las Veigas.</description>
+            <Placemark>
+                <name>Camino a Monzonovo</name>
+                <Point><coordinates>43.3634932, -7.1474298, 347</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>Os Esquíos</name>
+                <Point><coordinates>43.3453363, -7.0933846, 425</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>As Veigas</name>
+                <Point><coordinates>43.3275932, -7.0879747, 466</coordinates></Point>
+            </Placemark>
+            <Placemark>
+                <name>Os Teixóis</name>
+                <Point><coordinates>43.3410599, -7.080602, 375</coordinates></Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
