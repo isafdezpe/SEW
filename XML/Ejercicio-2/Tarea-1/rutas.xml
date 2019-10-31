@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rutas SYSTEM "rutas.dtd">
-<?xml-stylesheet type="text/css" href="rutas.css"?>
 <?xml-stylesheet type="text/xsl" href="rutas.xsl"?>
-
 <rutas>
     <ruta nombre="Ruta por Oviedo">
         <tipo>Monumentos</tipo>
         <transporte>A pie</transporte>
-        <fecha>2018-11-02</fecha>
+        <fecha>2019-11-02</fecha>
         <hora>12:00</hora>
         <duracion>PT2H</duracion>
         <agencia>Turismo de Oviedo</agencia>
@@ -15,11 +12,7 @@
         <personas>Jóvenes y adultos</personas>
         <lugar>Oviedo</lugar>
         <direccion>Plaza de la catedral</direccion>
-        <coordenadas>
-            <longitud>43º21'44''N</longitud>
-            <latitud>-5º50'39''W</latitud> 
-            <altitud>232m</altitud>
-        </coordenadas>
+        <coordenadas>43.362349, -5.844286, 241</coordenadas>
         <referencia ref-number="1" enlace="http://el.tesorodeoviedo.es/index.php?title=Plaza_de_Alfonso_II">Plaza de la catedral</referencia>
         <referencia ref-number="2" enlace="https://es.wikipedia.org/wiki/La_Regenta_(escultura)">Escultura La Regenta</referencia>
         <referencia ref-number="3" enlace="https://es.wikipedia.org/wiki/La_lechera_(escultura)">Escultura La Lechera</referencia>
@@ -27,39 +20,27 @@
         <hitos>
             <hito nombre="La Lechera">
                 <descripcion-hito>Esculura homenaje a las mujeres que trabajaron como leceras hasta mediados del silo XX.</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º21'38''N</longitud-hito>
-                    <latitud-hito>-5º50'38''W</latitud-hito> 
-                    <altitud-hito>233m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="metros">300</distancia>
+                <coordenadas-hito>43.36029, -5.84476, 244</coordenadas-hito>
+                <distancia unidades="m">300</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Oviedo_aldeana_sculpture.jpg">Fotografía de la escultura</fotografia>
-                    <fotografia archivo="multimedia/trascorrales.jpg">Fotografía de la plaza</fotografia>
+                    <fotografia archivo="https://imgur.com/zDYfxRh.jpg">Fotografía de la escultura</fotografia>
+                    <fotografia archivo="https://imgur.com/Ox3s30q.jpg">Fotografía de la plaza</fotografia>
                 </galeria>
             </hito>
             <hito nombre="Vendedoras del Fontán">
                 <descripcion-hito>Representa a las mujeres que venían a Oviedo para vender cerámica.</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º21'34''N</longitud-hito>
-                    <latitud-hito>-5º50'45''W</latitud-hito> 
-                    <altitud-hito>232m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="metros">280</distancia>
+                <coordenadas-hito>43.36029, -5.84476, 240</coordenadas-hito>
+                <distancia unidades="m">280</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Vendedoras_del_Fontan.jpg">Fotografía de la escultura</fotografia>
+                    <fotografia archivo="https://imgur.com/jHIFvt0.jpg">Fotografía de la escultura</fotografia>
                 </galeria>
             </hito>
             <hito nombre="¡Adiós, cordera!">
                 <descripcion-hito>Representa el cuento de Alas Clarín del mismo nombre que la escultura.</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º21'42''N</longitud-hito>
-                    <latitud-hito>-5º51'12''W</latitud-hito> 
-                    <altitud-hito>241m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="metros">850</distancia>
+                <coordenadas-hito>43.3621531, -5.8529224, 244</coordenadas-hito>
+                <distancia unidades="m">850</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Adios_Cordera.jpg">Fotografía de la escultura</fotografia>
+                    <fotografia archivo="https://imgur.com/0J4EOw0.jpg">Fotografía de la escultura</fotografia>
                 </galeria>
             </hito>
         </hitos>
@@ -67,7 +48,7 @@
     <ruta nombre="Ruta por la costa">
         <tipo>Paisajística</tipo>
         <transporte>Mixta a pie y bus</transporte>
-        <fecha>2019-05-05</fecha>
+        <fecha>2020-05-05</fecha>
         <hora>10:00</hora>
         <duracion>PT6H</duracion>
         <agencia>Turismo de Asturias</agencia>
@@ -75,11 +56,7 @@
         <personas>Jóvenes y adultos</personas>
         <lugar>Luarca</lugar>
         <direccion>Faro de Luarca</direccion>
-        <coordenadas>
-            <longitud>43º32'58''N</longitud>
-            <latitud>-6º31'57''W</latitud> 
-            <altitud>17m</altitud>
-        </coordenadas>
+        <coordenadas>43.5496919, -6.5325156, 1</coordenadas>
         <referencia ref-number="1" enlace="https://www.turismoasturias.es/descubre/costa">Descubre la costa asturiana</referencia>
         <referencia ref-number="2" enlace="https://www.turismoasturias.es/descubre/costa/villas-marineras/marinera-luarca">Luarca</referencia>
         <referencia ref-number="3" enlace="https://www.turismoasturias.es/descubre/costa/villas-marineras/marinera-cudillero">Cudillero</referencia>
@@ -88,40 +65,28 @@
         <hitos>
             <hito nombre="Cudillero">
                 <descripcion-hito>Con un relevante puerto pesquero, es un pueblo con mucho turismo.</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º33'36''N</longitud-hito>
-                    <latitud-hito>-6º08'55''W</latitud-hito> 
-                    <altitud-hito>49m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="kilometros">39.4</distancia>
+                <coordenadas-hito>43.5633258, -6.1458061, 17</coordenadas-hito>
+                <distancia unidades="km">39.4</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/cudillero.jpg">Puerto de Cudillero</fotografia>
-                    <fotografia archivo="multimedia/Cudillero-Faro-y-acantilado.jpg">Faro de Cudillero</fotografia>
+                    <fotografia archivo="https://imgur.com/rZuB3XJ.jpg">Puerto de Cudillero</fotografia>
+                    <fotografia archivo="https://imgur.com/uYoKjoD.jpg">Faro de Cudillero</fotografia>
                 </galeria>
             </hito>
             <hito nombre="Luanco">
                 <descripcion-hito>Se encuentra a poca distancia del Cabo Peñas y su turismo se ha desarrollado superando en importancia a la pesca.</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º36'49''N</longitud-hito>
-                    <latitud-hito>-5º47'34''W</latitud-hito> 
-                    <altitud-hito>4m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="kilometros">47.2</distancia>
+                <coordenadas-hito>43.6135047, -5.7938812, 9</coordenadas-hito>
+                <distancia unidades="km">47.2</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/260px-Luanco_-_10.jpg">Casco histórico de Luanco</fotografia>
-                    <fotografia archivo="multimedia/210px-Torre_del_reloj_(Luanco).jpg">Torre del reloj</fotografia>
+                    <fotografia archivo="https://imgur.com/3CrmdSA.jpg">Casco histórico de Luanco</fotografia>
+                    <fotografia archivo="https://imgur.com/UlXDWSR.jpg">Torre del reloj</fotografia>
                 </galeria>
             </hito>
             <hito nombre="Lastres">
                 <descripcion-hito>Fue el escenario de la serie televisiva "Doctor Mateo"</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º30'50''N</longitud-hito>
-                    <latitud-hito>-5º16'13''W</latitud-hito> 
-                    <altitud-hito>58m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="kilometros">60.4</distancia>
+                <coordenadas-hito>43.5140728, -5.2715325, 84</coordenadas-hito>
+                <distancia unidades="km">60.4</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Lastres,_Asturias.jpg">Vista desde el mar</fotografia>
+                    <fotografia archivo="https://imgur.com/jHlFP5Q.jpg">Vista desde el mar</fotografia>
                 </galeria>
             </hito>
         </hitos>
@@ -129,7 +94,7 @@
     <ruta nombre="Ruta de la sidra por Gijón">
         <tipo>Gastronómica</tipo>
         <transporte>Mixta a pie y bus</transporte>
-        <fecha>2018-11-03</fecha>
+        <fecha>2019-12-03</fecha>
         <hora>18:30</hora>
         <duracion>PT3H</duracion>
         <agencia>Turismo Gijón</agencia>
@@ -137,11 +102,7 @@
         <personas>Adultos</personas>
         <lugar>Gijón</lugar>
         <direccion>Llagar Sidra Trabanco</direccion>
-        <coordenadas>
-            <longitud>43º28'13''N</longitud>
-            <latitud>-5º38'45''W</latitud> 
-            <altitud>153m</altitud>
-        </coordenadas>
+        <coordenadas>43.4706842, -5.6450155, 138</coordenadas>
         <referencia ref-number="1" enlace="http://www.gijon.info/directorios/show/3418-llagar-sidra-trabanco">Llagar Sidra Trabanco</referencia>
         <referencia ref-number="2" enlace="http://www.gijon.info/directorios/show/9482-llagar-bernueces">Llagar Bernueces</referencia>
         <referencia ref-number="3" enlace="http://www.gijon.info/directorios/show/3415-llagar-sidra-pinera">Llagar Sidra Piñera</referencia>
@@ -150,38 +111,26 @@
         <hitos>
             <hito nombre="Llagar Bernueces">
                 <descripcion-hito>Llagar Bernueces es uno de los llagares más antiguos de Asturias. Con unos orígenes que datan de 1881, se trata de uno de esos enclaves únicos donde la tradición cultural y gastronómica se encuentra impregnada en cada detalle, en cada rincón.</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º30'35''N</longitud-hito>
-                    <latitud-hito>-5º37'32''W</latitud-hito> 
-                    <altitud-hito>58m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="kilometros">7.1</distancia>
+                <coordenadas-hito>43.5087188, -5.6224727, 67</coordenadas-hito>
+                <distancia unidades="km">7.1</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/c130x108_v1_bernueces.jpg"/>
+                    <fotografia archivo="https://imgur.com/zylqiIh.jpg"/>
                 </galeria>
             </hito>
             <hito nombre="Llagar Sidra Piñera">
                 <descripcion-hito>Sidra Piñera es una empresa asturiana, de cáracter totalmente familiar, que desde hace más de 50 años ofrece a sus clientes su sidra, fabricada de manera totalmente artesanal.</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º30'06''N</longitud-hito>
-                    <latitud-hito>-5º36'15''W</latitud-hito> 
-                    <altitud-hito>74m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="kilometros">2.2</distancia>
+                <coordenadas-hito>43.5013872, -5.6067356, 48</coordenadas-hito>
+                <distancia unidades="km">2.2</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/c130x108_v1_pipineraera.jpg"/>
+                    <fotografia archivo="https://imgur.com/rdEQsLs.jpg"/>
                 </galeria>
             </hito>
             <hito nombre="Sidra Acebal">
                 <descripcion-hito>En el llagar de Sidra Acebal podrás ver cómo se elabora la sidra tradicional asturiana.</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º32'16''N</longitud-hito>
-                    <latitud-hito>-5º37'24''W</latitud-hito> 
-                    <altitud-hito>18m</altitud-hito>
-                </coordenadas-hito>
+                <coordenadas-hito>43.5266109, -5.5948297, 88</coordenadas-hito>
                 <distancia unidades="kilometros">4.5</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/c130x108_v1_acebal.jpg"/>
+                    <fotografia archivo="https://imgur.com/WqEIQwd.jpg"/>
                 </galeria>
             </hito>
         </hitos>
@@ -192,14 +141,10 @@
         <duracion>PT4H</duracion>
         <agencia>Sin agencia</agencia>
         <descripcion>Se conoce como “Costa de los Dinosaurios” al sector litoral de Asturias comprendido entre las localidades de Gijón y Ribadesella y caracterizado por la abundancia de huellas y restos óseos de dinosaurios y otros reptiles jurásicos.</descripcion>
-        <personas>Niños</personas>
+        <personas>Con niños</personas>
         <lugar>Tazones</lugar>
         <direccion>Puerto de Tazones</direccion>
-        <coordenadas>
-            <longitud>43º32'44''N</longitud>
-            <latitud>-5º23'53''W</latitud> 
-            <altitud>0m</altitud>
-        </coordenadas>
+        <coordenadas>43.5457251, -5.3998889, 22</coordenadas>
         <referencia ref-number="1" enlace="http://www.museojurasicoasturias.com/es/9/la-costa-de-los-dinosaurios.html">Costa de los dinosaurios</referencia>
         <referencia ref-number="2" enlace="http://www.museojurasicoasturias.com/es/9/la-costa-de-los-dinosaurios/12/la-costa-de-los-dinosaurios/8/puerto-de-tazones.html">Puerto de Tazones</referencia>
         <referencia ref-number="3" enlace="http://www.museojurasicoasturias.com/9/la_costa_de_los_dinosaurios/12/lugares_para_visitar/9/playa_de_meron.html">Playa de Merón</referencia>
@@ -207,40 +152,28 @@
         <hitos>
             <hito nombre="Faro de Tazones">
                 <descripcion-hito>A partir de aquí, y continuando hacia el este (a la derecha) por la base del acantilado unos 200m. se accede a la superficie de un estrato de arenisca, inclinado unos 25º hacia el mar, que muestra multitud de icnitas tridáctilas cruzándose en varias direcciones, constituyendo diversos rastros, así como una huella de arrastre de la cola.</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º32'52''N</longitud-hito>
-                    <latitud-hito>-5º23'56''W</latitud-hito> 
-                    <altitud-hito>114m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="kilometros">2.8</distancia>
+                <coordenadas-hito>43.5478655, -5.4011623, 106</coordenadas-hito>
+                <distancia unidades="km">2.8</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/faro-de-tazones.jpg"/>
-                    <fotografia archivo="multimedia/faro-tazones-nueva.jpg"/>
+                    <fotografia archivo="https://imgur.com/oyfonkY.jpg"/>
+                    <fotografia archivo="https://imgur.com/80BqiJZ.jpg"/>
                 </galeria>
             </hito>
             <hito nombre="Acantilados de luces">
                 <descripcion-hito>Cerca de allí, y un poco al este, se encuentra un bloque suelto de arenisca con dos contramoldes de huellas de dinosaurio, una tridáctila de un terópodo y otra en forma de media luna (mano de saurópodo).</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º32'02''N</longitud-hito>
-                    <latitud-hito>-5º18'01''W</latitud-hito> 
-                    <altitud-hito>96m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="kilometros">28.3</distancia>
+                <coordenadas-hito>43.5341429, -5.3027151, 30</coordenadas-hito>
+                <distancia unidades="km">28.3</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/luces.jpg"/>
+                    <fotografia archivo="https://imgur.com/olHQZLK.jpg"/>
                 </galeria>
             </hito>
             <hito nombre="Playa de la Vega">
                 <descripcion-hito>Contiene abundantes fósiles marinos, como braquiópodos, belemnites, ammonites, bivalvos, etc.</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º28'43''N</longitud-hito>
-                    <latitud-hito>-5º08'40''W</latitud-hito> 
-                    <altitud-hito>2m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="kilometros">24.4</distancia>
+                <coordenadas-hito>43.4784731, -5.1486909, 10</coordenadas-hito>
+                <distancia unidades="km">24.4</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/playa-de-vega-vertical.jpg"/>
-                    <fotografia archivo="multimedia/06vega.jpg"/>
+                    <fotografia archivo="https://imgur.com/iBipbVw.jpg"/>
+                    <fotografia archivo="https://imgur.com/4GEH46J.jpg"/>
                 </galeria>
             </hito>
         </hitos>
@@ -254,11 +187,7 @@
         <personas>Personas en buena forma física</personas>
         <lugar>Taramundi</lugar>
         <direccion>Camino a Monzonovo</direccion>
-        <coordenadas>
-            <longitud>43º21'27''N</longitud>
-            <latitud>-7º06'26''W</latitud> 
-            <altitud>199m</altitud>
-        </coordenadas>
+        <coordenadas>43.3634932, -7.1474298, 347</coordenadas>
         <referencia ref-number="1" enlace="https://www.turismoasturias.es/descubre/naturaleza/rutas/senderismo/ruta-del-agua-de-taramundi">Ruta del Agua</referencia>
         <referencia ref-number="2" enlace="http://www.mazonovo.es/">Museo de los Molinos</referencia>
         <referencia ref-number="3" enlace="http://www.asveigas.com/">Centro de Turismo Rural As Veigas</referencia>
@@ -266,40 +195,28 @@
         <hitos>
             <hito nombre="Os Esquíos">
                 <descripcion-hito>Situada en plena naturaleza con unas vistas incomparables, Taramundi es un lugar idóneo para perderse, disfrutar del sabor de antaño sin olvidar el confort y la comodidad.</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º20'43''N</longitud-hito>
-                    <latitud-hito>-7º05'28''W</latitud-hito> 
-                    <altitud-hito>329m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="kilometros">3.3</distancia>
+                <coordenadas-hito>43.3453363, -7.0933846, 425</coordenadas-hito>
+                <distancia unidades="km">3.3</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Ruta del Agua Taramundi Asturias (12).jpg"/>
+                    <fotografia archivo="https://imgur.com/GLD0lMA.jpg"/>
                 </galeria>
             </hito>
             <hito nombre="As Veigas">
                 <descripcion-hito>La aldea de As Veigas, se encuentra en medio de un bosque autóctono y junto al lecho de un río virgen.</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º19'39''N</longitud-hito>
-                    <latitud-hito>-7º05'08''W</latitud-hito> 
-                    <altitud-hito>364m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="kilometros">2.7</distancia>
+                <coordenadas-hito>43.3275932, -7.0879747, 466</coordenadas-hito>
+                <distancia unidades="km">2.7</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Ruta del Agua Taramundi Asturias (16).JPG">Camino de As Veigas</fotografia>
-                    <fotografia archivo="multimedia/Ruta del Agua Taramundi Asturias (17).JPG">Aldea de As Veigas</fotografia>
+                    <fotografia archivo="https://imgur.com/cLAtBNA.jpg">Camino de As Veigas</fotografia>
+                    <fotografia archivo="https://imgur.com/2JxPvmq.jpg">Aldea de As Veigas</fotografia>
                 </galeria>
             </hito>
             <hito nombre="Os Teixóis">
                 <descripcion-hito>Es una pequeña aldea en la que se puede descubrir un valioso conjunto de ingenios hidraúlicos en su estado natural.</descripcion-hito>
-                <coordenadas-hito>
-                    <longitud-hito>43º20'28''N</longitud-hito>
-                    <latitud-hito>-7º04'46''W</latitud-hito> 
-                    <altitud-hito>327m</altitud-hito>
-                </coordenadas-hito>
-                <distancia unidades="kilometros">4.7</distancia>
+                <coordenadas-hito>43.3410599, -7.080602, 375</coordenadas-hito>
+                <distancia unidades="km">4.7</distancia>
                 <galeria>
-                    <fotografia archivo="multimedia/Conjunto Etnografico de Teixois Taramundi (1).JPG">Conjunto Etnografico Os Teixóis</fotografia>
-                    <fotografia archivo="multimedia/Conjunto Etnografico de Teixois Taramundi (2).JPG">Museo Os Teixóis</fotografia>
+                    <fotografia archivo="https://imgur.com/I16pxEo.jpg">Conjunto Etnografico Os Teixóis</fotografia>
+                    <fotografia archivo="https://imgur.com/jqyUJ10.jpg">Museo Os Teixóis</fotografia>
                 </galeria>
             </hito>
         </hitos>
