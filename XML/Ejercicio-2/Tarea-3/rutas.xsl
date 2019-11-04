@@ -4,24 +4,17 @@
 		<kml>
 			<Document>
 				<xsl:for-each select="ruta">
-					<Folder>
+					<Placemark>
 						<name><xsl:value-of select="@nombre"/></name>
-						<description><xsl:value-of select="descripcion"/></description>
-						<Placemark>
-							<name><xsl:value-of select="direccion"/></name>
-							<Point>
-								<coordinates><xsl:value-of select="coordenadas"/></coordinates>
-							</Point>
-						</Placemark>
-						<xsl:for-each select="hitos/hito">
-							<Placemark>
-								<name><xsl:value-of select="@nombre"/></name>
-								<Point>
-									<coordinates><xsl:value-of select="coordenadas-hito"/></coordinates>
-								</Point>
-							</Placemark>
-						</xsl:for-each>
-					</Folder>
+						<LineString>
+							<coordinates>
+								<xsl:value-of select="coordenadas"/><xsl:text>&#xD;</xsl:text>
+								<xsl:for-each select="hitos/hito">
+									<xsl:value-of select="coordenadas-hito"/><xsl:text>&#xD;</xsl:text>
+								</xsl:for-each>
+							</coordinates>
+						</LineString>
+					</Placemark>
 				</xsl:for-each>
 			</Document>
 		</kml>
