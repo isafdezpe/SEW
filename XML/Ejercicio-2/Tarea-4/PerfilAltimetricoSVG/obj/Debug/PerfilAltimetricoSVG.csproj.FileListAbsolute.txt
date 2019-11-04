@@ -1,0 +1,7 @@
+C:\Users\becario\Downloads\SEW-master\XML\Ejercicio-2\Tarea-4\PerfilAltimetricoSVG\obj\Debug\PerfilAltimetricoSVG.csprojAssemblyReference.cache
+C:\Users\becario\Downloads\SEW-master\XML\Ejercicio-2\Tarea-4\PerfilAltimetricoSVG\obj\Debug\PerfilAltimetricoSVG.csproj.CoreCompileInputs.cache
+C:\Users\becario\Downloads\SEW-master\XML\Ejercicio-2\Tarea-4\PerfilAltimetricoSVG\bin\Debug\PerfilAltimetricoSVG.exe.config
+C:\Users\becario\Downloads\SEW-master\XML\Ejercicio-2\Tarea-4\PerfilAltimetricoSVG\bin\Debug\PerfilAltimetricoSVG.exe
+C:\Users\becario\Downloads\SEW-master\XML\Ejercicio-2\Tarea-4\PerfilAltimetricoSVG\bin\Debug\PerfilAltimetricoSVG.pdb
+C:\Users\becario\Downloads\SEW-master\XML\Ejercicio-2\Tarea-4\PerfilAltimetricoSVG\obj\Debug\PerfilAltimetricoSVG.exe
+C:\Users\becario\Downloads\SEW-master\XML\Ejercicio-2\Tarea-4\PerfilAltimetricoSVG\obj\Debug\PerfilAltimetricoSVG.pdb
