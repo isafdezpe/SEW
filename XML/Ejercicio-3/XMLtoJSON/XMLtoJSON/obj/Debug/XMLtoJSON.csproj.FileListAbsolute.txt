@@ -8,3 +8,12 @@ C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\obj\Debug\XMLtoJS
 C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\obj\Debug\XMLtoJSON.csproj.CopyComplete
 C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\obj\Debug\XMLtoJSON.exe
 C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\obj\Debug\XMLtoJSON.pdb
+C:\Users\User\Google Drive\universidad\SEW\SEW\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\bin\Debug\XMLtoJSON.exe.config
+C:\Users\User\Google Drive\universidad\SEW\SEW\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\bin\Debug\XMLtoJSON.exe
+C:\Users\User\Google Drive\universidad\SEW\SEW\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\bin\Debug\XMLtoJSON.pdb
+C:\Users\User\Google Drive\universidad\SEW\SEW\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Google Drive\universidad\SEW\SEW\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Google Drive\universidad\SEW\SEW\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\obj\Debug\XMLtoJSON.csprojAssemblyReference.cache
+C:\Users\User\Google Drive\universidad\SEW\SEW\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\obj\Debug\XMLtoJSON.csproj.CopyComplete
+C:\Users\User\Google Drive\universidad\SEW\SEW\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\obj\Debug\XMLtoJSON.exe
+C:\Users\User\Google Drive\universidad\SEW\SEW\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\obj\Debug\XMLtoJSON.pdb

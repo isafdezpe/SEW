@@ -16,9 +16,21 @@ namespace XMLtoJSON
     {
         static void Main(string[] args)
         {
+            if (args.Length != 2)
+            {
+                Console.WriteLine("Deben especificarse dos archivos como parámetro");
+                return;
+            }
+
             if (args[0] == null)
             { 
                 Console.WriteLine("No se ha especificado archivo de entrada");
+                return;
+            }
+
+            if (!args[0].EndsWith(".xml"))
+            {
+                Console.WriteLine("El archivo de entrada especificado no es un XML");
                 return;
             }
 
@@ -33,7 +45,7 @@ namespace XMLtoJSON
 
             string json = JsonConvert.SerializeXmlNode(doc);
 
-            File.WriteAllText(args[1], json.ToString());
+            File.WriteAllText(args[1] + ".json", json.ToString());
         }
     }
 }
