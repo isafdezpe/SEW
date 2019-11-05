@@ -1,0 +1,7 @@
+C:\Users\becario\Downloads\XML\Ejercicio-4\CSVtoXML\bin\Debug\CSVtoXML.exe.config
+C:\Users\becario\Downloads\XML\Ejercicio-4\CSVtoXML\bin\Debug\CSVtoXML.exe
+C:\Users\becario\Downloads\XML\Ejercicio-4\CSVtoXML\bin\Debug\CSVtoXML.pdb
+C:\Users\becario\Downloads\XML\Ejercicio-4\CSVtoXML\obj\Debug\CSVtoXML.csprojAssemblyReference.cache
+C:\Users\becario\Downloads\XML\Ejercicio-4\CSVtoXML\obj\Debug\CSVtoXML.csproj.CoreCompileInputs.cache
+C:\Users\becario\Downloads\XML\Ejercicio-4\CSVtoXML\obj\Debug\CSVtoXML.exe
+C:\Users\becario\Downloads\XML\Ejercicio-4\CSVtoXML\obj\Debug\CSVtoXML.pdb
