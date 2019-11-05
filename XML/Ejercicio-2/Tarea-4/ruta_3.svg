@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg height="auto" width="auto" style="overflow:visible" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <polyline style="fill:white;stroke:red;stroke-width:4" points="10,13,2 100,63,6 190,18 280,6 " />
+  <text x="630" y="-75" transform="rotate(90,90,90)">Playa de la Vega</text>
+  <text x="630" y="0" transform="rotate(90,90,90)">Acantilados de luces</text>
+  <text x="630" y="75" transform="rotate(90,90,90)">Faro de Tazones</text>
+  <text x="630" y="150" transform="rotate(90,90,90)">Inicio</text>
+</svg>
