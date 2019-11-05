@@ -31,8 +31,8 @@ namespace CSVtoXML
                 Console.WriteLine("No se ha especificado archivo de salida");
                 return;
             }
-
-            var csvContent = File.ReadAllLines(args[0]);
+            string path = @"" + args[0] + "";
+            var csvContent = File.ReadAllLines(path);
 
             var name = args[0].Split('.')[0];
             var xmlContent = new XElement(name,

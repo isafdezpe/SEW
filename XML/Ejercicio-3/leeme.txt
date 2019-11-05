@@ -1,0 +1,9 @@
+Lenguaje de programación: C#
+Compilador: .Net Framework 4.6.1
+
+Archivo de prueba utilizado: Ejercicio3\rutas.xml
+Archivo generado: Ejercicio3\rutas.json
+
+El programa realizado se encuentra en la carpeta Ejecutable y convierte un archivo XML a un JSON.
+Se ejecuta desde línea de comandos especificando la ruta del archivo XML de entrada y el nombre deseado para el archivo de salida (no es necesario incluir la extensión de éste, ya que se añade automáticamente para evitar errores). Si nos encontramos en la carpeta Ejercicio3\Ejecutable, indicaríamos lo siguiente:
+XMLtoJSON.exe ..\rutas.xml ..\rutas
