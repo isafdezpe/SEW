@@ -1,0 +1,10 @@
+C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\bin\Debug\XMLtoJSON.exe.config
+C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\bin\Debug\XMLtoJSON.exe
+C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\bin\Debug\XMLtoJSON.pdb
+C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\bin\Debug\Newtonsoft.Json.dll
+C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\bin\Debug\Newtonsoft.Json.xml
+C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\obj\Debug\XMLtoJSON.csprojAssemblyReference.cache
+C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\obj\Debug\XMLtoJSON.csproj.CoreCompileInputs.cache
+C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\obj\Debug\XMLtoJSON.csproj.CopyComplete
+C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\obj\Debug\XMLtoJSON.exe
+C:\Users\becario\Downloads\XML\Ejercicio-3\XMLtoJSON\XMLtoJSON\obj\Debug\XMLtoJSON.pdb
