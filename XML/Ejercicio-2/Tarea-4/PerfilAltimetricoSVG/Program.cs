@@ -12,7 +12,13 @@ namespace PerfilAltimetricoSVG
     {
         static void Main(string[] args)
         {
-            XDocument doc = XDocument.Load(args[0]);
+			if (args[0] == null)
+            { 
+                Console.WriteLine("No se ha especificado archivo");
+                return;
+            }
+
+			XDocument doc = XDocument.Load(args[0]);
 
             var rutas = (from r in doc.Descendants("rutas").Elements("ruta") select r);
             var altitudesIniciales = (from r in rutas.Elements("coordenadas") select r.Value.Split(',')[2]);
@@ -49,6 +55,8 @@ namespace PerfilAltimetricoSVG
 
                 i++;
             }
+			
+			
         }
 
         private static XmlNode GenerateSvg(XmlDocument doc)
