@@ -1,0 +1,9 @@
+Lenguaje de programación: C#
+Compilador: .Net Framework 4.6.1
+
+Archivo de prueba utilizado: Ejercicio4\plan.csv
+Archivo generado: Ejercicio4\plan.xml
+
+El programa realizado se encuentra en la carpeta Ejecutable y convierte un archivo CSV (separado por ';') a un XML.
+Se ejecuta desde línea de comandos especificando la ruta del archivo CSV de entrada y el nombre deseado para el archivo de salida (no es necesario incluir la extensión de éste, ya que se añade automáticamente para evitar errores). Si nos encontramos en la carpeta Ejercicio4\Ejecutable, indicaríamos lo siguiente:
+CSVtoXML.exe ..\plan.csv ..\plan

@@ -1,0 +1,272 @@
+<plan>
+  <Item>
+    <Column0>SEW.T.1</Column0>
+    <Column1> 11/09/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>11/09/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 2 de SEW.T.1</Column5>
+    <Column6> A-S-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.T.1</Column0>
+    <Column1> 18/09/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>18/09/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 4 de SEW.T.1</Column5>
+    <Column6> A-S-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.T.1</Column0>
+    <Column1> 25/09/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>25/09/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 6 de SEW.T.1</Column5>
+    <Column6> A-S-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.T.1</Column0>
+    <Column1> 02/10/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>02/10/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 8 de SEW.T.1</Column5>
+    <Column6> A-S-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.T.1</Column0>
+    <Column1> 09/10/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>09/10/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 10 de SEW.T.1</Column5>
+    <Column6> A-S-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.T.1</Column0>
+    <Column1> 16/10/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>16/10/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 12 de SEW.T.1</Column5>
+    <Column6> A-S-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.T.1</Column0>
+    <Column1> 23/10/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>23/10/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 14 de SEW.T.1</Column5>
+    <Column6> A-S-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.T.1</Column0>
+    <Column1> 30/10/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>30/10/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 16 de SEW.T.1</Column5>
+    <Column6> A-S-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.T.1</Column0>
+    <Column1> 06/11/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>06/11/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 18 de SEW.T.1</Column5>
+    <Column6> A-S-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.T.1</Column0>
+    <Column1> 13/11/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>13/11/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 20 de SEW.T.1</Column5>
+    <Column6> A-S-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.T.1</Column0>
+    <Column1> 20/11/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>20/11/2019</Column3>
+    <Column4> 10.00</Column4>
+    <Column5>Hora de clase n�mero 21 de SEW.T.1</Column5>
+    <Column6> A-S-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.S.2</Column0>
+    <Column1> 20/09/2019</Column1>
+    <Column2>  11.00</Column2>
+    <Column3>20/09/2019</Column3>
+    <Column4> 12.00</Column4>
+    <Column5>Hora de clase n�mero 1 de SEW.S.2</Column5>
+    <Column6> A-B-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.S.2</Column0>
+    <Column1> 04/10/2019</Column1>
+    <Column2>  11.00</Column2>
+    <Column3>04/10/2019</Column3>
+    <Column4> 12.00</Column4>
+    <Column5>Hora de clase n�mero 2 de SEW.S.2</Column5>
+    <Column6> A-B-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.S.2</Column0>
+    <Column1> 18/10/2019</Column1>
+    <Column2>  11.00</Column2>
+    <Column3>18/10/2019</Column3>
+    <Column4> 12.00</Column4>
+    <Column5>Hora de clase n�mero 3 de SEW.S.2</Column5>
+    <Column6> A-B-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.S.2</Column0>
+    <Column1> 08/11/2019</Column1>
+    <Column2>  11.00</Column2>
+    <Column3>08/11/2019</Column3>
+    <Column4> 12.00</Column4>
+    <Column5>Hora de clase n�mero 4 de SEW.S.2</Column5>
+    <Column6> A-B-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.S.2</Column0>
+    <Column1> 22/11/2019</Column1>
+    <Column2>  11.00</Column2>
+    <Column3>22/11/2019</Column3>
+    <Column4> 12.00</Column4>
+    <Column5>Hora de clase n�mero 5 de SEW.S.2</Column5>
+    <Column6> A-B-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.S.2</Column0>
+    <Column1> 13/12/2019</Column1>
+    <Column2>  11.00</Column2>
+    <Column3>13/12/2019</Column3>
+    <Column4> 12.00</Column4>
+    <Column5>Hora de clase n�mero 6 de SEW.S.2</Column5>
+    <Column6> A-B-01</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.L.5</Column0>
+    <Column1> 16/09/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>16/09/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 2 de SEW.L.5</Column5>
+    <Column6> L-12</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.L.5</Column0>
+    <Column1> 23/09/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>23/09/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 4 de SEW.L.5</Column5>
+    <Column6> L-12</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.L.5</Column0>
+    <Column1> 30/09/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>30/09/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 6 de SEW.L.5</Column5>
+    <Column6> L-12</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.L.5</Column0>
+    <Column1> 07/10/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>07/10/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 8 de SEW.L.5</Column5>
+    <Column6> L-12</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.L.5</Column0>
+    <Column1> 14/10/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>14/10/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 10 de SEW.L.5</Column5>
+    <Column6> L-12</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.L.5</Column0>
+    <Column1> 21/10/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>21/10/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 12 de SEW.L.5</Column5>
+    <Column6> L-12</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.L.5</Column0>
+    <Column1> 28/10/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>28/10/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 14 de SEW.L.5</Column5>
+    <Column6> L-12</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.L.5</Column0>
+    <Column1> 04/11/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>04/11/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 16 de SEW.L.5</Column5>
+    <Column6> L-12</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.L.5</Column0>
+    <Column1> 11/11/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>11/11/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 18 de SEW.L.5</Column5>
+    <Column6> L-12</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.L.5</Column0>
+    <Column1> 18/11/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>18/11/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 20 de SEW.L.5</Column5>
+    <Column6> L-12</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.L.5</Column0>
+    <Column1> 02/12/2019</Column1>
+    <Column2>  9.00</Column2>
+    <Column3>02/12/2019</Column3>
+    <Column4> 11.00</Column4>
+    <Column5>Hora de clase n�mero 22 de SEW.L.5</Column5>
+    <Column6> L-12</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.TG.5</Column0>
+    <Column1> 14/10/2019</Column1>
+    <Column2>  13.00</Column2>
+    <Column3>14/10/2019</Column3>
+    <Column4> 14.00</Column4>
+    <Column5>Hora de clase n�mero 1 de SEW.TG.5</Column5>
+    <Column6> L-12</Column6>
+  </Item>
+  <Item>
+    <Column0>SEW.TG.5</Column0>
+    <Column1> 18/11/2019</Column1>
+    <Column2>  13.00</Column2>
+    <Column3>18/11/2019</Column3>
+    <Column4> 14.00</Column4>
+    <Column5>Hora de clase n�mero 2 de SEW.TG.5</Column5>
+    <Column6> L-12</Column6>
+  </Item>
+</plan>
