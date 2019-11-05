@@ -33,9 +33,7 @@ namespace XMLtoJSON
 
             string json = JsonConvert.SerializeXmlNode(doc);
 
-            string fileName = args[1];
-
-            File.WriteAllText(fileName, json.ToString());
+            File.WriteAllText(args[1], json.ToString());
         }
     }
 }
