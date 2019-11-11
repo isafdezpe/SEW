@@ -1,0 +1,41 @@
+/*001*/
+body {
+    font-family: Optima, sans-serif;
+    font-size: 1em;
+    line-height: 1.8;
+    color: black;
+    background-color: white;
+    text-align: justify;
+    margin: auto;
+    width: 90%;
+}
+
+/*001*/
+h1, h2, h3, h4 {
+    font-weight: bold;
+    background-color: black;
+    color: yellow;
+    border-radius: 0.3em;
+    text-align: center;
+    text-transform: uppercase;  
+}
+
+/*001*/
+h1 {
+    font-size: 3em;
+}
+  
+/*001*/
+h2 {
+    font-size: 2em;
+}
+  
+/*001*/
+h3 {
+    font-size: 1.5em;
+}
+  
+/*001*/
+h4 {
+    font-size: 1.3em;
+}

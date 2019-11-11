@@ -1,0 +1,13 @@
+var navegador = new Object();
+navegador.codigo = navigator.appCodeName;
+navegador.nombre = navigator.appName;
+navegador.version = navigator.appVersion;
+navegador.cookies = navigator.cookieEnabled;
+navegador.geolocalizacion = navigator.geolocation;
+navegador.lenguaje = navigator.language;
+navegador.online = navigator.onLine;
+navegador.plataforma = navigator.platform;
+navegador.producto = navigator.product;
+navegador.userAgent = navigator.userAgent;
+navegador.vendedor = navigator.vendor;
+navegador.java = navigator.javaEnabled();
