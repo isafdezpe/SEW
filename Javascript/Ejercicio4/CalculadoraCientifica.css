@@ -2,7 +2,7 @@
 body {
     font-family: Optima, sans-serif;
     color: black;
-    background-color: #D1B38B;
+    background-color: floralwhite;
     margin: 10px;
 }
 
@@ -10,40 +10,36 @@ body {
 table {
     border-radius: 0.5em;
     padding: 1em;
-    background-color: #3D4543;
+    background-color: lightgrey;
     margin-bottom: 20px;
 }
 
 /*001*/
 th, td {
-    padding: 0.5em;
+    padding: 0.3em;
 }
 
 /*001*/
 input {
     padding: 0.5em;
     border-radius: 0.3em;
-    width: 3em;
+    width: 4em;
+    height: 3em;
+    background-color: #DCDCDC;
 }
 
 /*011*/
 input.result {
-    background-color: #BCCD95;
-    width: 15em;
+    background-color: white;
+    width: 22em;
 }
 
-/*011*/ /*100*/ /*100*/
-input.number, #equals, #delete {
-    background-color: #DCDCDC;
+/*011*/ /*011*/ /*011*/ /*100*/ /*100*/
+input.m, input.op, input.bracket, #equals, #delete {
+    background-color: darkgrey;
 }
 
 /*011*/
 input.m {
     color: white;
-    background-color: #6F6F6F;
-}
-
-/*011*/
-input.op {
-    background-color: #FE4460;
 }
