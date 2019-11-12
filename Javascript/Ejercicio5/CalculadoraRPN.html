@@ -2,14 +2,14 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Ejercicio 4</title>
+        <title>Ejercicio 5</title>
         <meta name="author" content="UO257829">
-        <script src="CalculadoraCientifica.js"></script>
+        <script src="CalculadoraRPN.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
+        <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
     </head>
     <body>
-        <h1>Calculadora científica</h1>
+        <h1>Calculadora RPN</h1>
         <form>
             <table>
                 <tr>
@@ -19,28 +19,19 @@
                 </tr>
                 <tr>
                     <td>
-                        <input class="m" type="button" onclick="calculadora.clickMc()" value="mc"/>
+                        <input class="op" type="button" onclick="calculadora.clickExpY()" value="x^y"/>
                     </td>
                     <td>
-                        <input class="m" type="button" onclick="calculadora.clickMr()" value="mr"/>
+                        <input class="op" type="button" onclick="calculadora.clickExp()" value="Exp"/>
                     </td>
                     <td>
-                        <input class="m" type="button" onclick="calculadora.clickMMas()" value="m+"/>
+                        <input class="op" type="button" onclick="calculadora.clickRaiz()" value="&#8730;"/>
                     </td>
                     <td>
-                        <input class="m" type="button" onclick="calculadora.clickMMenos()" value="m-"/>
-                    </td>
-                    <td>
-                        <input class="m" type="button" onclick="calculadora.clickMs()" value="ms"/>
+                        <input class="op" type="button" onclick="calculadora.clickLog()" value="log"/>
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickExp2()" value="x&#178;"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickExpY()" value="x^y"/>
-                    </td>
                     <td>
                         <input class="op" type="button" onclick="calculadora.clickSeno()" value="sin"/>
                     </td>
@@ -50,28 +41,11 @@
                     <td>
                         <input class="op" type="button" onclick="calculadora.clickTangente()" value="tan"/>
                     </td>
-                </tr>
-                <tr>
                     <td>
-                        <input class="op" type="button" onclick="calculadora.clickRaiz()" value="&#8730;"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.click10Exp()" value="10^x"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickLog()" value="log"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickExp()" value="Exp"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickModulo()" value="Mod"/>
+                        <input id="delete" type="button" onclick="calculadora.clickBorrar()" value="C"/>
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickFactorial()" value="n!"/>
-                    </td>
                     <td>
                         <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="7"/>
                     </td>
@@ -86,9 +60,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <input id="delete" type="button" onclick="calculadora.clickBorrar()" value="C"/>
-                    </td>
+                    
                     <td>
                         <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="4"/>
                     </td>
@@ -104,9 +76,6 @@
                 </tr>
                 <tr>
                     <td>
-                        <input class="bracket" type="button" onclick="calculadora.clickBracket1()" value="("/>
-                    </td>
-                    <td>
                         <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="1"/>
                     </td>
                     <td>
@@ -121,16 +90,13 @@
                 </tr>
                 <tr>
                     <td>
-                        <input class="bracket" type="button" onclick="calculadora.clickBracket2()" value=")"/>
-                    </td>
-                    <td>
                         <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="0"/>
                     </td>
                     <td>
                         <input class="number" type="button" onclick="calculadora.clickDecimal()" value="."/>
                     </td>
                     <td>
-                        <input id="equals" type="button" onclick="calculadora.clickIgual()" value="="/>
+                        <input id="enter" type="button" onclick="calculadora.clickEnter()" value="ENTER"/>
                     </td>
                     <td>
                         <input class="op" type="button" onclick="calculadora.clickSuma()" value="+"/>

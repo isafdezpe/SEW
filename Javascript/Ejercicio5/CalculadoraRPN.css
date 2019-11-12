@@ -1,0 +1,40 @@
+/*001*/
+body {
+    font-family: Optima, sans-serif;
+    color: black;
+    background-color: floralwhite;
+    margin: 10px;
+}
+
+/*001*/
+table {
+    border-radius: 0.5em;
+    padding: 1em;
+    background-color: lightgrey;
+    margin-bottom: 20px;
+}
+
+/*001*/
+th, td {
+    padding: 0.3em;
+}
+
+/*001*/
+input {
+    padding: 0.5em;
+    border-radius: 0.3em;
+    width: 5em;
+    height: 3em;
+    background-color: #DCDCDC;
+}
+
+/*011*/
+input.result {
+    background-color: white;
+    width: 22em;
+}
+
+/*011*/ /*011*/ /*100*/ /*100*/
+input.op, input.bracket, #enter, #delete {
+    background-color: darkgrey;
+}
