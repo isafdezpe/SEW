@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 6</title>
+        <meta name="author" content="UO257829">
+        <script src="Ejercicio6.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="Ejercicio6.css" />
+    </head>
+    <body>
+        <h1>Planificador semanal</h1>
+        <form>
+            <table>
+                <thr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sábado</th>
+                    <th>Domingo</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="lunes" type="text" readonly/>
+                    </td>
+                    <td>
+                        <input class="martes" type="text" readonly/>
+                    </td>
+                    <td>
+                        <input class="miercoles" type="text" readonly/>
+                    </td>
+                    <td>
+                        <input class="jueves" type="text" readonly/>
+                    </td>
+                    <td>
+                        <input class="viernes" type="text" readonly/>
+                    </td>
+                    <td>
+                        <input class="sabado" type="text" readonly/>
+                    </td>
+                    <td>
+                        <input class="domingo" type="text" readonly/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="add" type="button" onclick="plan.addLunes()" value="Añadir en lunes"/>
+                    </td>
+                    <td>
+                        <input class="add" type="button" onclick="plan.addMartes()" value="Añadir en martes"/>
+                    </td>
+                    <td>
+                        <input class="add" type="button" onclick="plan.addMiercoles()" value="Añadir en miércoles"/>
+                    </td>
+                    <td>
+                        <input class="add" type="button" onclick="plan.addJueves()" value="Añadir en jueves"/>
+                    </td>
+                    <td>
+                        <input class="add" type="button" onclick="plan.addViernes()" value="Añadir en viernes"/>
+                    </td>
+                    <td>
+                        <input class="add" type="button" onclick="plan.addSabado()" value="Añadir en sábado"/>
+                    </td>
+                    <td>
+                        <input class="add" type="button" onclick="plan.addDomingo()" value="Añadir en domingo"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <footer>
+            <a href="https://validator.w3.org/check?uri=referer"><img
+                src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+                alt="HTML5 Válido" height="64" width="63" /></a>
+            <a href=" http://jigsaw.w3.org/css-validator/check/referer ">
+                <img src=" http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" height="31" width="88" /></a>
+        </footer>
+    </body>
+</html>
