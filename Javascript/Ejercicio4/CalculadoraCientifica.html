@@ -11,132 +11,56 @@
     <body>
         <h1>Calculadora científica</h1>
         <form>
-            <table>
-                <tr>
-                    <td colspan="5">
-                        <input class="result" type="text" readonly/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input class="m" type="button" onclick="calculadora.clickMc()" value="mc"/>
-                    </td>
-                    <td>
-                        <input class="m" type="button" onclick="calculadora.clickMr()" value="mr"/>
-                    </td>
-                    <td>
-                        <input class="m" type="button" onclick="calculadora.clickMMas()" value="m+"/>
-                    </td>
-                    <td>
-                        <input class="m" type="button" onclick="calculadora.clickMMenos()" value="m-"/>
-                    </td>
-                    <td>
-                        <input class="m" type="button" onclick="calculadora.clickMs()" value="ms"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickExp2()" value="x&#178;"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickExpY()" value="x^y"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickSeno()" value="sin"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickCoseno()" value="cos"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickTangente()" value="tan"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickRaiz()" value="&#8730;"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.click10Exp()" value="10^x"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickLog()" value="log"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickExp()" value="Exp"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickModulo()" value="Mod"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickFactorial()" value="n!"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="7"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="8"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="9"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickDivision()" value="/"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input id="delete" type="button" onclick="calculadora.clickBorrar()" value="C"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="4"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="5"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="6"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickMult()" value="*"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input class="bracket" type="button" onclick="calculadora.clickBracket1()" value="("/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="1"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="2"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="3"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickResta()" value="-"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input class="bracket" type="button" onclick="calculadora.clickBracket2()" value=")"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="0"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickDecimal()" value="."/>
-                    </td>
-                    <td>
-                        <input id="equals" type="button" onclick="calculadora.clickIgual()" value="="/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickSuma()" value="+"/>
-                    </td>
-                </tr>
-            </table>
+            <input class="result" type="text" readonly/>
+            <div>
+                <input class="m" type="button" onclick="calculadora.clickMc()" value="mc"/>
+                <input class="m" type="button" onclick="calculadora.clickMr()" value="mr"/>
+                <input class="m" type="button" onclick="calculadora.clickMMas()" value="m+"/>
+                <input class="m" type="button" onclick="calculadora.clickMMenos()" value="m-"/>
+                <input class="m" type="button" onclick="calculadora.clickMs()" value="ms"/>
+            </div>
+            <div>
+                <input class="op" type="button" onclick="calculadora.clickExp2()" value="x&#178;"/>
+                <input class="op" type="button" onclick="calculadora.clickExpY()" value="x^y"/>
+                <input class="op" type="button" onclick="calculadora.clickSeno()" value="sin"/>
+                <input class="op" type="button" onclick="calculadora.clickCoseno()" value="cos"/>
+                <input class="op" type="button" onclick="calculadora.clickTangente()" value="tan"/>
+            </div>
+            <div>
+                <input class="op" type="button" onclick="calculadora.clickRaiz()" value="&#8730;"/>
+                <input class="op" type="button" onclick="calculadora.click10Exp()" value="10^x"/>
+                <input class="op" type="button" onclick="calculadora.clickLog()" value="log"/>
+                <input class="op" type="button" onclick="calculadora.clickExp()" value="Exp"/>
+                <input class="op" type="button" onclick="calculadora.clickModulo()" value="Mod"/>
+            </div>
+            <div>
+                <input class="op" type="button" onclick="calculadora.clickFactorial()" value="n!"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="7"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="8"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="9"/>
+                <input class="op" type="button" onclick="calculadora.clickDivision()" value="/"/>
+            </div>
+            <div>
+                <input id="delete" type="button" onclick="calculadora.clickBorrar()" value="C"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="4"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="5"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="6"/>
+                <input class="op" type="button" onclick="calculadora.clickMult()" value="*"/>
+            </div>
+            <div>
+                <input class="bracket" type="button" onclick="calculadora.clickBracket1()" value="("/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="1"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="2"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="3"/>
+                <input class="op" type="button" onclick="calculadora.clickResta()" value="-"/>
+            </div>
+            <div>
+                <input class="bracket" type="button" onclick="calculadora.clickBracket2()" value=")"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="0"/>
+                <input class="number" type="button" onclick="calculadora.clickDecimal()" value="."/>
+                <input id="equals" type="button" onclick="calculadora.clickIgual()" value="="/>
+                <input class="op" type="button" onclick="calculadora.clickSuma()" value="+"/>
+            </div>
         </form>
         <footer>
             <a href="https://validator.w3.org/check?uri=referer"><img

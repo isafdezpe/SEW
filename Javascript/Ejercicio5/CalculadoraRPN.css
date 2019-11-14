@@ -4,19 +4,22 @@ body {
     color: black;
     background-color: floralwhite;
     margin: 10px;
+    align-content: center;
 }
 
 /*001*/
-table {
+form {
     border-radius: 0.5em;
     padding: 1em;
     background-color: lightgrey;
     margin-bottom: 20px;
+    width: 19.5em;
 }
 
 /*001*/
-th, td {
+div {
     padding: 0.3em;
+    margin-left: 3%;
 }
 
 /*001*/
@@ -30,8 +33,9 @@ input {
 
 /*011*/
 input.result {
+    margin: 3%;
     background-color: white;
-    width: 22em;
+    width: 20em;
 }
 
 /*011*/ /*011*/ /*100*/ /*100*/

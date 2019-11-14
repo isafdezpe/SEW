@@ -11,83 +11,37 @@
     <body>
         <h1>Calculadora básica</h1>
         <form>
-            <table>
-                <tr>
-                    <td colspan="4">
-                        <input class="result" type="text" readonly/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input class="m" type="button" onclick="calculadora.clickMrc()" value="mrc"/>
-                    </td>
-                    <td>
-                        <input class="m" type="button" onclick="calculadora.clickMMas()" value="m+"/>
-                    </td>
-                    <td>
-                        <input class="m" type="button" onclick="calculadora.clickMMenos()" value="m-"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickDivision()" value="/"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="7"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="8"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="9"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickMult()" value="*"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="4"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="5"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="6"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickResta()" value="-"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="1"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="2"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="3"/>
-                    </td>
-                    <td>
-                        <input class="op" type="button" onclick="calculadora.clickSuma()" value="+"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="0"/>
-                    </td>
-                    <td>
-                        <input class="number" type="button" onclick="calculadora.clickDecimal()" value="."/>
-                    </td>
-                    <td>
-                        <input id="delete" type="button" onclick="calculadora.clickBorrar()" value="C"/>
-                    </td>
-                    <td>
-                        <input id="equals" type="button" onclick="calculadora.clickIgual()" value="="/>
-                    </td>
-                </tr>
-            </table>
+            <input class="result" type="text" readonly/>
+            <div>
+                <input class="m" type="button" onclick="calculadora.clickMrc()" value="mrc"/>
+                <input class="m" type="button" onclick="calculadora.clickMMas()" value="m+"/>
+                <input class="m" type="button" onclick="calculadora.clickMMenos()" value="m-"/>
+                <input class="op" type="button" onclick="calculadora.clickDivision()" value="/"/>
+            </div>
+            <div>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="7"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="8"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="9"/>
+                <input class="op" type="button" onclick="calculadora.clickMult()" value="*"/>
+            </div>
+            <div>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="4"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="5"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="6"/>
+                <input class="op" type="button" onclick="calculadora.clickResta()" value="-"/>
+            </div>
+            <div>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="1"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="2"/>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="3"/>
+                <input class="op" type="button" onclick="calculadora.clickSuma()" value="+"/>
+            </div>
+            <div>
+                <input class="number" type="button" onclick="calculadora.clickNumero(this.value)" value="0"/>
+                <input class="number" type="button" onclick="calculadora.clickDecimal()" value="."/>
+                <input id="delete" type="button" onclick="calculadora.clickBorrar()" value="C"/>
+                <input id="equals" type="button" onclick="calculadora.clickIgual()" value="="/>
+            </div>
         </form>
         <footer>
             <a href="https://validator.w3.org/check?uri=referer"><img
