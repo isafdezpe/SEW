@@ -29,7 +29,7 @@ th, td {
 input {
     padding: 0.5em;
     border-radius: 0.5em;
-    background-color: floralwhite;
+    background-color: white;
     margin: 1%;
     height: 40em;
     width: 15em;
@@ -41,3 +41,14 @@ input {
     background-color: indigo;
     color: white;
 }
+
+.write {
+    width: 16em;
+    height: 3em;
+}
+
+ul li {
+    list-style: circle;
+    text-transform: capitalize;
+}
+
