@@ -1,0 +1,43 @@
+/*001*/
+body {
+    font-family: Optima, sans-serif;
+    color: black;
+    background-color: white;
+    margin: 10px;
+    align-content: center;
+}
+
+/*001*/
+h1 {
+    text-align: center;
+}
+
+/*001*/
+table {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: lavender;
+    margin: 20px;
+    border: black 3px solid;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.5em;
+    border: black 1px solid;
+}
+
+/*001*/
+input {
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background-color: black;
+    color: white;
+    margin-bottom: 40px;
+    width: 16em;
+    height: 5em;
+}
+
+ul{
+    list-style: circle;
+}
