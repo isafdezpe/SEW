@@ -51,6 +51,9 @@ class CalculadoraBasica {
     }
 
     clickIgual() {
+        if (this.input.value == "")
+            this.input.value = "0";
+        else
         this.input.value = eval(this.input.value);
     }
 

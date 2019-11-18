@@ -52,7 +52,10 @@ class CalculadoraBasica {
     }
 
     clickIgual() {
-        this.input.value = eval(this.input.value);
+        if (this.input.value == "")
+            this.input.value = "0";
+        else
+            this.input.value = eval(this.input.value);
     }
 
 }
