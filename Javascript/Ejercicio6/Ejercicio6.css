@@ -31,20 +31,13 @@ input {
     border-radius: 0.5em;
     background-color: white;
     margin: 1%;
-    height: 40em;
-    width: 15em;
+    width: 16em;
+    height: 5em;
 }
 
 .add {
-    width: 16em;
-    height: 5em;
     background-color: indigo;
     color: white;
-}
-
-.write {
-    width: 16em;
-    height: 3em;
 }
 
 ul li {
