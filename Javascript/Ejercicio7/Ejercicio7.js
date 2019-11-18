@@ -5,7 +5,7 @@ class Ejercicio7 {
     }
 
     modificar() {
-        $("p").html("Párrafo de ejemplo modificado.");
+        $(".parrafo").html("Párrafo de ejemplo modificado.");
     }
 
     añadir() {
@@ -20,11 +20,20 @@ class Ejercicio7 {
     }
 
     mostrarElementos() {
-
+        $("*", document.body).each(function() {
+            var elemento = $(this).get(0).tagName;
+            var padre = $(this).parent().get(0).tagName;
+            $(this).prepend(document.createTextNode("Padre: <" + padre + 
+            ">, elemento: <" + elemento + ">, valor:"));
+        });
     }
 
     sumarFilasYCols() {
-
+        var numFilas = $("table tr").length;
+        var numCols = $("table tr th").length;
+        var content = "<p>Filas: " + numFilas 
+            + "</p><p>Columnas: " + numCols + "</p>";
+        $(content).insertAfter("table");
     }
 
 }
