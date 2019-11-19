@@ -5,10 +5,18 @@
         <title>Ejercicio 8</title>
         <meta name="author" content="UO257829">
         <script src="Ejercicio8.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" type="text/css" href="Ejercicio8.css" />
     </head>
     <body>
+        <h1>Meteorología</h1>
+        <h2 id="oviedo" onload="meteo.tiempo('oviedo')">Tiempo en Oviedo</h2>
+        <input type="button" onclick="meteo.tiempo('oviedo')"/>
+        <h2 id="gijon">Tiempo en Gijón</h2>
+        <h2 id="aviles">Tiempo en Avilés</h2>
+        <h2 id="cangas">Tiempo en Cangas del Narcea</h2>
+        <h2 id="navia">Tiempo en Navia</h2>
         <footer>
             <a href="https://validator.w3.org/check?uri=referer"><img
                 src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
