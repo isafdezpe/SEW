@@ -10,14 +10,14 @@ class Meteorologia {
     }
 
     tiempo(ciudad) {
-        $("#tiempo").remove();
-        $("#error").remove();
+        $("#tiempo" + ciudad).remove();
+        $("#error" + ciudad).remove();
         var url = this.apicall + ciudad + this.tipo + this.unidades +
             this.idioma + "&APPID=" + this.apikey;
-        this.cargarJson(url);
+        this.cargarJson(url, ciudad);
     }
 
-    cargarJson(urlSitio) {
+    cargarJson(urlSitio, ciudad) {
         $.ajax({
             dataType: "json",
             url: urlSitio,
@@ -25,26 +25,25 @@ class Meteorologia {
             success: function(datos) {
                 var content = "<img src=\"http://openweathermap.org/img/w/" +
                     datos.weather[0].icon + ".png\" alt=Tiempo>" +
-                    "<ul><li>Ciudad: " + datos.name + "</li>" +
-                    "<li>País: " + datos.sys.country + "</li>" +
+                    "<ul><li>País: " + datos.sys.country + "</li>" +
                     "<li>Coordenadas: " + datos.coord.lon + ", " + datos.coord.lat + "</li>" +
-                    "<li>Tiempo: " + datos.weather[0].main + ", " + datos.weather[0].description + "</li>" +
-                    "<li>Temperatura: " + datos.main.temp + "</li>" +
-                    "<li>Temperatura mínima: " + datos.main.temp_min + "</li>" +
-                    "<li>Temperatura máxima: " + datos.main.temp_max + "</li>" +
-                    "<li>Humedad: " + datos.main.humidity + "</li>" +
-                    "<li>Presión: " + datos.main.pressure + "</li>" +
+                    "<li>Tiempo: " + datos.weather[0].description + "</li>" +
+                    "<li>Temperatura: " + datos.main.temp + "ºC</li>" +
+                    "<li>Temperatura mínima: " + datos.main.temp_min + "ºC</li>" +
+                    "<li>Temperatura máxima: " + datos.main.temp_max + "ºC</li>" +
+                    "<li>Humedad: " + datos.main.humidity + "%</li>" +
+                    "<li>Presión: " + datos.main.pressure + "mb</li>" +
                     "<li>Visibilidad: " + datos.visibility + "</li>" +
-                    "<li>Velocidad y dirección del viento: " + datos.wind.speed + ", " + datos.wind.deg + "</li>" +
-                    //"<li>Nubosidad: " + datos.cloud.all + "</li>" +
-                    "<li>Amanecer: " + datos.sys.sunrise + "</li>" +
-                    "<li>Atardecer: " + datos.sys.sunset + "</li></ul>";
-                $("#results").after("<section id='tiempo'></section>")
-                $("#tiempo").html(content);
+                    "<li>Velocidad del viento: " + datos.wind.speed + "m/s</li>" +
+                    "<li>Nubosidad: " + datos.clouds.all + "</li>" +
+                    "<li>Amanecer: " + new Date(datos.sys.sunrise * 1000).toLocaleTimeString() + "</li>" +
+                    "<li>Atardecer: " + new Date(datos.sys.sunset * 1000).toLocaleTimeString() + "</li></ul>";
+                $("#" + ciudad).after("<section id='tiempo" + ciudad +"'></section>")
+                $("#tiempo" + ciudad).html(content);
             },
             error: function() {
-                $("#results").after("<p id='error'></p>")
-                $("#error").html("¡Tenemos problemas! No puedo obtener JSON de <a href='http://openweathermap.org'>OpenWeatherMap</a>");
+                $("#results").after("<p id='error" + ciudad +"'></p>")
+                $("#error" + ciudad).html("¡Tenemos problemas! No puedo obtener JSON de <a href='http://openweathermap.org'>OpenWeatherMap</a>");
             }
         });
 

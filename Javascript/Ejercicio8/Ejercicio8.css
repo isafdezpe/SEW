@@ -1,0 +1,44 @@
+/*001*/
+body {
+    font-family: Optima, sans-serif;
+    color: black;
+    background-color: white;
+    margin: 10px;
+    align-content: center;
+}
+
+/*001*/
+h1 {
+    text-align: center;
+    background-color: salmon;
+    font-size:3em;
+    padding: 1em;
+    border-radius: 0.5em;
+    text-transform: uppercase;
+}
+
+/*001*/
+h2 {
+    font-size:2em;
+    color: coral;
+}
+
+/*001*/
+button {
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background-color: black;
+    color: white;
+    font-size:1em;
+}
+
+/*002*/
+ul li{
+    list-style: none;
+    padding: 0.5em;
+}
+
+/*001*/
+footer {
+    margin-top: 40px;
+}
