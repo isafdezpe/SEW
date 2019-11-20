@@ -1,4 +1,3 @@
-"use strict";
 class Meteorologia {
 
     constructor() {
@@ -6,24 +5,27 @@ class Meteorologia {
         this.tipo = "&mode=json";
         this.unidades = "&units=metric";
         this.idioma = "&lang=es";
-        this.apicall = "api.openweathermap.org/data/2.5/weather?q="
+        this.apicall = "api.openweathermap.org/data/2.5/weather?q=";
+        this.correcto = "¡Todo correcto! JSON recibido de <a href='http://openweathermap.org/'>OpenWeatherMap</a>";
     }
 
     tiempo(ciudad) {
+        $("section").remove();
+        $("p").remove();
         var url = this.apicall + ciudad + this.tipo + this.unidades 
             + this.idioma + "&APPID=" + this.apikey;
-        cargarJson(url, ciudad);
+        $("section").insertAfter("#" + ciudad);
+        $("p").insertAfter("#" + ciudad);
+        this.cargarJson(url);
     }
 
-    cargarJson(url, ciudad) {
-        var id = '#oviedo';
-        var content = "";
+    cargarJson(urlSitio) {
         $.ajax({
             dataType: "json",
-            url: url,
+            url: urlSitio,
             method: 'GET',
             success: function(datos) {
-                content = "<img src=\"http://openweathermap.org/img/w/"
+                var content = "<img src=\"http://openweathermap.org/img/w/"
                     + datos.weather[0].icon +".png\" alt=Tiempo>" 
                     + "<ul><li>Ciudad: " + datos.name + "</li>"
                     + "<li>País: " + datos.sys.country + "</li>"
@@ -39,13 +41,13 @@ class Meteorologia {
                     + "<li>Nubosidad: " + datos.cloud.all + "</li>"
                     + "<li>Amanecer: " + datos.sys.sunrise + "</li>"
                     + "<li>Atardecer: " + datos.sys.sunset + "</li></ul>";
+                $("section").html(content);
             },
             error: function() {
-                content = "<p>No se pudo obtener el JSON</p>";
+                $("p").html("¡Tenemos problemas! No puedo obtener JSON de <a href='http://openweathermap.org'>OpenWeatherMap</a>"); 
             }
-            
         });
-        $(content).insertAfter(id);
+        
     }
 
 }
