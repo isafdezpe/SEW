@@ -4,11 +4,31 @@
         <meta charset="UTF-8">
         <title>Ejercicio 10</title>
         <meta name="author" content="UO257829">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="Ejercicio10.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" type="text/css" href="Ejercicio10.css" />
     </head>
     <body>
+        <h1>Conversor de divisas</h1>
+        <table>
+            <tr>
+                <th>Euro - EUR (€)</th>
+                <th>Dólar estadounidense - USD ($)</th>
+                <th>Libra esterlina - GBP (£)</th>
+                <th>Dólar australiano - AUD ($)</th>
+                <th>Yen - JPY (¥)</th>
+                <th>Franco suizo - CHF (Fr.)</th>
+            </tr>
+            <tr>
+                <td><input id="euro" type="text" oninput="cambio.convertir()" value="0"/></td>
+                <td><input id="usd" type="text"  value="0" readonly/></td>
+                <td><input id="libra" type="text"  value="0" readonly/></td>
+                <td><input id="aud" type="text"  value="0" readonly/></td>
+                <td><input id="yen" type="text"  value="0" readonly/></td>
+                <td><input id="fr" type="text"  value="0" readonly/></td>
+            </tr>
+        </table>
         <footer>
             <a href="https://validator.w3.org/check?uri=referer"><img
                 src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"

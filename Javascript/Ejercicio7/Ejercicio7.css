@@ -22,6 +22,7 @@ table {
     border-collapse: collapse;
 }
 
+/*001*/
 th, td {
     padding: 0.5em;
     border: black 1px solid;
@@ -38,6 +39,7 @@ input {
     height: 5em;
 }
 
+/*001*/
 ul{
     list-style: circle;
 }

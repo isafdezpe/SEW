@@ -1,0 +1,51 @@
+/*001*/
+body {
+    font-family: Optima, sans-serif;
+    color: black;
+    background-color: white;
+    margin: 10px;
+    align-content: center;
+}
+
+/*001*/
+h1 {
+    text-align: center;
+    background-color: salmon;
+    font-size:3em;
+    padding: 1em;
+    border-radius: 0.5em;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+/*001*/
+table {
+    margin: 0 auto;
+    width: 100%;
+    padding: 1em;
+    border: coral 3px solid;
+    border-collapse: collapse;
+}
+
+/*001*/
+th, td {
+    padding: 1em;
+    border: coral 1px solid;
+}
+
+/*001*/
+input {
+    border: none;
+    text-align: center;
+}
+
+/*100*/
+#euro {
+    background-color: peachpuff;
+    padding: 0.5em;
+}
+
+/*001*/
+footer {
+    margin-top: 50px;
+}

@@ -17,9 +17,10 @@ table {
     padding: 1em;
     border-radius: 1em;
     background-color: lavender;
-    margin: 20px;
+    margin: 0 auto;
 }
 
+/*001*/
 th, td {
     padding: 0.5em;
 }
@@ -35,13 +36,20 @@ input {
     height: 5em;
 }
 
+/*010*/
 .add {
     background-color: indigo;
     color: white;
 }
 
+/*002*/
 ul li {
     list-style: circle;
     text-transform: capitalize;
+}
+
+/*001*/
+footer {
+    margin-top: 40px;
 }
 
