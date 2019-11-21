@@ -4,11 +4,28 @@
         <meta charset="UTF-8">
         <title>Ejercicio 9</title>
         <meta name="author" content="UO257829">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="Ejercicio9.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" type="text/css" href="Ejercicio9.css" />
     </head>
     <body>
+        <h1>Meteorología</h1>
+        <h2>Tiempo en Oviedo</h2>
+        <button onclick="meteo.tiempo('oviedo')">Mostrar</button>
+        <section id="oviedo"></section>
+        <h2>Tiempo en Gijón</h2>
+        <button onclick="meteo.tiempo('gijon')">Mostrar</button>
+        <section id="gijon"></section>
+        <h2>Tiempo en Avilés</h2>
+        <button onclick="meteo.tiempo('aviles')">Mostrar</button>
+        <section id="aviles"></section>
+        <h2>Tiempo en Llanes</h2>
+        <button onclick="meteo.tiempo('llanes')">Mostrar</button>
+        <section id="llanes"></section>
+        <h2>Tiempo en Navia</h2>
+        <button onclick="meteo.tiempo('navia')">Mostrar</button>
+        <section id="navia"></section>
         <footer>
             <a href="https://validator.w3.org/check?uri=referer"><img
                 src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
