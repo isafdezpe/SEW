@@ -1,19 +1,18 @@
-class DetectorLenguaje {
+class BuscadorAnime {
 
     constructor() {
-        this.apikey = "7e7fe3591bf9b5df1eb21a56265583a7";
-        this.apicall = "http://api.languagelayer.com/detect?access_key=" 
-            + this.apikey + "&query=";
-            this.correcto = "¡Todo correcto! JSON recibido de <a href='https://languagelayer.com/'>LanguageLayer</a>"
+        this.apicall = "https://kitsu.io/api/edge/anime?filter[text]=";
+        this.correcto = "¡Todo correcto! JSON recibido de <a href='https://kitsu.docs.apiary.io/'>Kitsu Api</a>"
     }
 
-    detectar() {
-        $("h2").remove();
+    buscar() {
+        $("ul").remove();
         $("p").remove();
-        var query = $("#detectar").val();
+        var query = $("#buscar").val();
         query = escape(query);
         var url = this.apicall + query;
         this.cargarJson(url);
+        $("#buscar").val("");
     }
 
     cargarJson(urlSite) {
@@ -22,16 +21,21 @@ class DetectorLenguaje {
             url: urlSite,
             method: 'GET',
             success: function(datos) {
-                var lenguaje = datos.results[0].language_code + ", " + datos.results[0].language_name;
-                var prob = parseFloat(datos.results[0].probability).toFixed(2);
-                $("#detectar").after("<h2>Lenguaje detectado: " + lenguaje 
-                + "</h2><p>Probabilidad de acierto (en función de la longitud de la frase): " + prob + "%</p>");
+                var content = "<ul>";
+                for (var d in datos.data) {
+                    content += "<li><h2>"+ datos.data[d].attributes.titles.en_jp 
+                        +"</h2><img src='" + datos.data[d].attributes.posterImage.small + "'alt='Poster'/>" 
+                        + "<p>Start date: " + datos.data[d].attributes.startDate + 
+                        "</p><p>" + datos.data[d].attributes.synopsis + "</p></li>"
+                }  
+                content += "</ul>";
+                $("#buscarButton").after(content);
             },
             error: function() {
-                $("#detectar").after("<h2>¡Tenemos problemas! No puedo obtener JSON de <a href='https://languagelayer.com/'>LanguageLayer</a></h2>");
+                $("#buscarButton").after("<p>¡Tenemos problemas! No puedo obtener JSON de <a href='https://kitsu.docs.apiary.io/'>Kitsu Api</a></p>");
             }
         });
     }
 }
 
-var det = new DetectorLenguaje();
+var buscador = new BuscadorAnime();
