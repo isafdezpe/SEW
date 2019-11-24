@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<kml xmlns:kml="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>
+        Ruta por Oviedo
+      </name>
+      <LineString>
+        <coordinates>
+          -5.844286,43.362349,241
+          -5.84476,43.36029,244
+          -5.84476,43.36029,240
+          -5.8529224,43.3621531,244
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>
+        Ruta por la costa
+      </name>
+      <LineString>
+        <coordinates>
+          -6.5325156,43.5496919,1
+          -6.1458061,43.5633258,17
+          -5.7938812,43.6135047,9
+          -5.2715325,43.5140728,84
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>
+        Ruta de la sidra por Gijón
+      </name>
+      <LineString>
+        <coordinates>
+          -5.6450155,43.4706842,138
+          -5.6224727,43.5087188,67
+          -5.6067356,43.5013872,48
+          -5.5948297,43.5266109,88
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>
+        Costa de los dinosaurios
+      </name>
+      <LineString>
+        <coordinates>
+          -5.3998889,43.5457251,22
+          -5.4011623,43.5478655,106
+          -5.3027151,43.5341429,30
+          -5.1486909,43.4784731,10
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>
+        Ruta del agua de Taramundi
+      </name>
+      <LineString>
+        <coordinates>
+          -7.1474298,43.3634932,347
+          -7.0933846,43.3453363,425
+          -7.0879747,43.3275932,466
+          -7.080602,43.3410599,375
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

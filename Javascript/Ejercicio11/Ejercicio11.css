@@ -65,4 +65,5 @@ img {
 /*001*/
 footer {
     margin-top: 50px;
+    clear: both;
 }
