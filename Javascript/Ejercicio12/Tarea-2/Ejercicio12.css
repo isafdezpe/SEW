@@ -1,0 +1,34 @@
+/*001*/
+body {
+    font-family: Optima, sans-serif;
+    color: black;
+    background-color: white;
+    margin: 2em;
+    align-content: center;
+    text-align: justify;
+}
+
+/*001*/
+h1 {
+    text-align: center;
+    background-color: indigo;
+    color: white;
+    font-size:2em;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+/*001*/
+input {
+    width: 20em;
+    height: 3em;
+    border-radius: 0.2em;
+}
+
+/*001*/
+footer {
+    margin-top: 50px;
+    clear: both;
+}
