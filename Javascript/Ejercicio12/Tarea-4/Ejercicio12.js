@@ -1,8 +1,8 @@
 class Geolocalizacion {
 
     constructor() {
-        this.latitud = 43.3645293;
-        this.longitud = -5.8383794;
+        this.latitud = 40.4167;
+        this.longitud = -3.70325;
     }
 
     localizar() {

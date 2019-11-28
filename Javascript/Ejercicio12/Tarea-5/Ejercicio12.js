@@ -1,11 +1,5 @@
 class Geolocalizacion {
 
-    constructor() {
-        navigator.geolocation.getCurrentPosition(this.mostrar, this.error);
-        this.latitud = -34.397;
-        this.longitud = 150.644;
-    }
-
     localizar() {
         navigator.geolocation.getCurrentPosition(this.mostrar, this.error);
     }
