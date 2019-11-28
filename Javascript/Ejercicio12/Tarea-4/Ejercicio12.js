@@ -1,9 +1,8 @@
 class Geolocalizacion {
 
     constructor() {
-        navigator.geolocation.getCurrentPosition(this.mostrar, this.error);
-        this.latitud = -34.397;
-        this.longitud = 150.644;
+        this.latitud = 43.3645293;
+        this.longitud = -5.8383794;
     }
 
     localizar() {
@@ -19,12 +18,6 @@ class Geolocalizacion {
             + "<p>Precisión de la altitud: " + posicion.coords.altitudeAccuracy + "</p>"
             + "<p>Rumbo: " + posicion.coords.heading + " º</p>"
             + "<p>Velocidad: " + posicion.coords.speed + " m/s</p>";
-        var mapOptions = {
-            zoom: 8,
-            center: new google.maps.LatLng(posicion.coords.latitude, posicion.coords.longitude)
-        };
-        var map = new google.maps.Map(document.getElementById("mapa"), mapOptions);
-        var marker = new google.maps.Marker({position: mapOptions.center, map: map});
         loc.innerHTML = content;
     }
 
@@ -46,6 +39,15 @@ class Geolocalizacion {
                 break;
         }
         loc.innerHTML = content;
+    }
+
+    initMap() {
+        var mapOptions = {
+            zoom: 8,
+            center: new google.maps.LatLng(this.latitud, this.longitud)
+        };
+        var map = new google.maps.Map(document.getElementById("mapa"), mapOptions);
+        var marker = new google.maps.Marker({position: mapOptions.center, map: map});
     }
 }
 

@@ -14,10 +14,11 @@
         <section id="localizacion">
             
         </section>
+        <input type="button" onclick="geoloc.localizar()" value="Obtener localizacion"/>
         <div id ="mapa">
             
         </div>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=geoloc.localizar" async defer>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=geoloc.initMap" async defer>
         </script>
         <footer>
             <a href="https://validator.w3.org/check?uri=referer"><img

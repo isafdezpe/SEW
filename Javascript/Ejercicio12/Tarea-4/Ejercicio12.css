@@ -34,9 +34,8 @@ footer {
     clear: both;
 }
 
+/*100*/
 #mapa {
-    height: 60%;
+    height: 500px;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
 }
