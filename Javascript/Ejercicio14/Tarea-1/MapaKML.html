@@ -12,6 +12,7 @@
     </head>
     <body>
         <h1>Carga de KML</h1>
+        <input type="file" onchange="kml.cargarKml(this.files)"/>
         <div id="mapa"></div>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3FmKi1hSynU6pmQsbvlYjeOpt9_o4WiU&callback=kml.initMap" async defer>
         </script>
