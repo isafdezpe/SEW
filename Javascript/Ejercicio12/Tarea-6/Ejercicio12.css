@@ -44,8 +44,6 @@ ul {
     list-style: circle;
 }
 
-/*001*/
-a {
-    color: black;
-    text-decoration: none;
+li {
+    cursor: pointer;
 }
