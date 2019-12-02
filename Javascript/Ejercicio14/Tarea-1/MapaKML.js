@@ -19,28 +19,12 @@ class MapaKML {
             afterParse: this.useTheData
         });
 
-        if (archivo.type == tipo) {
-            var reader = new FileReader();
-            reader.onload = function (event) {
+        var reader = new FileReader();
+        reader.onload = function (event) {
                 var text = reader.result;
-
-                parser.fetchXML = function (url, callback) {
-                    function timeoutHandler() {
-                        callback();
-                    };
-                    $.ajax({
-                        type: "GET",
-                        url: url,
-                        success: function (xml) {
-                            callback(xml);
-                        }
-                    });
-                };
-
                 parser.parseKmlString(text);
             }
-            lector.readAsText(archivo);
-        }
+            reader.readAsText(archivo);
     }
 
 }
