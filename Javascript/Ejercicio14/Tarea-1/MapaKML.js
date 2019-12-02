@@ -11,7 +11,6 @@ class MapaKML {
 
     cargarKml(files) {
         var archivo = files[0];
-        var tipo = "application/vnd.google-earth.kml+xml";
 
         var parser = new geoXML3.parser({
             map: this.map,
