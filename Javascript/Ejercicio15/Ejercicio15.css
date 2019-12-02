@@ -1,0 +1,49 @@
+/*001*/
+body {
+    font-family: Optima, sans-serif;
+    color: black;
+    background-color: white;
+    margin: 2em;
+    align-content: center;
+    text-align: justify;
+}
+
+/*001*/
+h1 {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-size:2em;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+/*001*/
+div {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*001*/
+footer {
+    margin-top: 50px;
+    clear: both;
+}
+
+/*100*/
+#arrastrar {
+    border: 2px solid black;
+    width:  80%;
+    height: 200px;
+    margin: auto;
+}
+
+/*100*/
+#canvas {
+    width: 90%;
+    align-content: center;
+    height: 600px;
+    background-color: azure;
+}
