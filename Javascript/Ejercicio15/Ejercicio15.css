@@ -47,3 +47,15 @@ footer {
     height: 600px;
     background-color: azure;
 }
+
+/*100*/
+#img-div {
+    width: 90%;
+    align-content: center;
+    height: 600px;
+    background-color: azure;
+}
+
+#img-div img {
+    size: 90%;
+}

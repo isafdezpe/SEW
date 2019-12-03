@@ -11,10 +11,11 @@
     </head>
     <body>
         <h1>Visualizar una imagen</h1>
-        <div id="select"><input type="file" onchange="img.cargar(this.files)"/></div>
-        <div id="arrastrar" ondrop="dropHandler(event)" ondragover="dragOverHandler(event)">
+        <div id="select"><input type="file" accept="image/*" onchange="img.cargar(this.files)"/></div>
+        <div id="arrastrar" ondrop="img.dropHandler(event)" ondragover="img.dragOverHandler(event)">
             <p>Seleccione o arrastre la imagen deseada</p>
         </div>
+        <div id="img-div"></div>
         <canvas id="canvas"></canvas>
         <footer>
             <a href="https://validator.w3.org/check?uri=referer"><img
