@@ -23,7 +23,7 @@ h1 {
 /*001*/
 div {
     text-align: center;
-    margin-bottom: 10px;
+    margin: auto;
 }
 
 /*001*/
@@ -37,7 +37,12 @@ footer {
     border: 2px solid black;
     width:  80%;
     height: 200px;
-    margin: auto;
+    margin-bottom: 20px;
+}
+
+/*001*/
+input {
+    margin-top: 10px; 
 }
 
 /*100*/
@@ -45,17 +50,7 @@ footer {
     width: 90%;
     align-content: center;
     height: 600px;
-    background-color: azure;
-}
-
-/*100*/
-#img-div {
-    width: 90%;
-    align-content: center;
-    height: 600px;
-    background-color: azure;
-}
-
-#img-div img {
-    size: 90%;
+    background-color: lightblue;
+    border: 1px solid lightskyblue;
+    margin: 0 auto;
 }

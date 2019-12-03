@@ -11,12 +11,13 @@
     </head>
     <body>
         <h1>Visualizar una imagen</h1>
-        <div id="select"><input type="file" accept="image/*" onchange="img.cargar(this.files)"/></div>
         <div id="arrastrar" ondrop="img.dropHandler(event)" ondragover="img.dragOverHandler(event)">
+            <input type="file" accept="image/*" onchange="img.cargar(this.files)"/>
             <p>Seleccione o arrastre la imagen deseada</p>
         </div>
-        <div id="img-div"></div>
-        <canvas id="canvas"></canvas>
+        <div id="div-canvas">
+            <canvas id="canvas"></canvas>
+        </div>
         <footer>
             <a href="https://validator.w3.org/check?uri=referer"><img
                 src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"

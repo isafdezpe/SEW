@@ -20,14 +20,15 @@ class MostrarImagenes {
 
     mostrarImagen(file) {
         var window = document.defaultView;
-        var div = document.getElementById("img-div")
+        var canvas = document.getElementById("canvas");
+        var context = canvas.getContext("2d");
         if (file.type.startsWith('image/')) {
             var img = document.createElement("img");
             img.src = window.URL.createObjectURL(file);
             img.onload = function() {
-                window.URL.revokeObjectURL(this.src);
+                context.drawImage(img,5,5);
             }
-            div.appendChild(img);
+            
         }
     }
 }
