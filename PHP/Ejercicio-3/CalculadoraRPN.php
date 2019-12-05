@@ -2,14 +2,44 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Ejercicio 2</title>
+        <title>Ejercicio 3</title>
         <meta name="author" content="UO257829">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
+        <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
     </head>
     <body>
         <?php 
-            class CalculadoraBasica {
+            class Pila {
+
+                private $pila;
+
+                public function __construct() {
+                    $this->pila = array();
+                }
+
+                public function push($v){
+                    $this->pila[] = $v;
+                }
+
+                public function pop(){
+                    return array_pop($this->pila);
+                }
+
+                public function isEmpty(){
+                    return empty($this->pila);
+                }
+
+                public function length(){
+                    return count($this->pila);
+                }
+
+                public function peek(){
+                    return $this->pila[($this->length() - 1)];
+                }
+
+            }
+
+            class CalculadoraRPN {
 
                 protected $res = "";
 
@@ -18,8 +48,11 @@
                     $this->cambiarOperacion();
                 }
 
-                private function exists() {
-                    return session_status() === PHP_SESSION_ACTIVE;
+                public function getPila() {
+                    if (!isset($_SESSION["pila"])) {
+                        $_SESSION["pila"] = new Pila();
+                    }
+                    return $_SESSION["pila"];
                 }
 
                 public function getResultado() {
@@ -36,10 +69,22 @@
                 protected function cambiarOperacion() {
                     $this->accion();
                     $this->borrar();
+                    $this->apilar();
                     $this->mrc();
                     $this->mMas();
                     $this->mMenos();
-                    $this->calcular();
+                    $this->suma();
+                    $this->resta();
+                    $this->mult();
+                    $this->div();
+                    $this->exp2();
+                    $this->exp10();
+                    $this->log();
+                    $this->sqrt();
+                    $this->sin();
+                    $this->cos();
+                    $this->tan();
+                    $this->factorial();
                 }
 
                 private function accion() {
@@ -50,8 +95,24 @@
 
                 private function borrar() {
                     if (!isset($_POST["borrar"])) {
-                        $this->res = "";
+                        $this->clear();
                     }
+                }
+
+                private function clear() {
+                    $this->res = "";
+                }
+
+                private function apilar() {
+                    if (isset($_POST["apilar"])) {
+                        $this->getPila()->push($_POST["operacion"]);
+                        $this->clear();
+                    }
+                }
+
+                private function checkSizePila($number) {
+                    echo $this->getPila()->length();
+                    return $number <= $this->getPila()->length();
                 }
 
                 private function mrc() {
@@ -80,30 +141,36 @@
                     }
                 }
 
-                private function calcular() {
-                    if (!isset($_POST["igual"])) {
-                        try {
-                            $valor = $_POST["operacion"];
-                            $this->res = eval("return $valor;");
-                        } catch (Exception $e) {
-                            $this->res = "Error";
-                        }
+                private function suma() {
+                    if (isset($_POST["mas"]) && $this->checkSizePila(2)) {
+                        $operando2 = $this->getPila()->pop();
+                        $operando1 = $this->getPila()->pop();
+                        $this->res = $operando1 + $operando2;
                     }
                 }
-            }
-
-            class CalculadoraCientifica extends CalculadoraBasica {
-
-                protected function cambiarOperacion() {
-                    parent::cambiarOperacion();
-                    $this->exp2();
-                    $this->exp10();
-                    $this->log();
-                    $this->sqrt();
-                    $this->sin();
-                    $this->cos();
-                    $this->tan();
-                    $this->factorial();
+        
+                private function resta() {
+                    if (isset($_POST["menos"]) && $this->checkSizePila(2)) {
+                        $operando2 = $this->getPila()->pop();
+                        $operando1 = $this->getPila()->pop();
+                        $this->res = $operando1 - $operando2;
+                    }
+                }
+        
+                private function mult() {
+                    if (isset($_POST["mult"]) && $this->checkSizePila(2)) {
+                        $operando2 = $this->getPila()->pop();
+                        $operando1 = $this->getPila()->pop();
+                        $this->res = $operando1 * $operando2;
+                    }
+                }
+        
+                private function div() {
+                    if (isset($_POST["div"]) && $this->checkSizePila(2)) {
+                        $operando2 = $this->getPila()->pop();
+                        $operando1 = $this->getPila()->pop();
+                        $this->res = $operando1 / $operando2;
+                    }
                 }
 
                 private function sin() {
@@ -167,13 +234,13 @@
                 
             }
 
-            $calculadora = new CalculadoraCientifica();
+            $calculadora = new CalculadoraRPN();
         ?>
         <h1>Calculadora básica</h1>
         <form action="#" method="post" name="calculadora"> 
             <input class="result" name="operacion" type="text" readonly
                 value="<?php echo $calculadora->getResultado() ?>"/>
-                <div>
+            <div>
                 <button class="m" type="submit" name="mrc" value="mrc">mrc</button>
                 <button class="m" type="submit" name="m+" value="m+">m+</button>
                 <button class="m" type="submit" name="m-" value="m-">m-</button>
@@ -198,15 +265,15 @@
                 <button class="number" type="submit" name="accion" value="4">4</button>
                 <button class="number" type="submit" name="accion" value="5">5</button>
                 <button class="number" type="submit" name="accion" value="6">6</button>
-                <button class="op" type="submit" name="accion" value="/">/</button>
-                <button class="op" type="submit" name="accion" value="*">*</button>
+                <button class="op" type="submit" name="div" value="/">/</button>
+                <button class="op" type="submit" name="mult" value="*">*</button>
             </div>
             <div>
                 <button class="number" type="submit" name="accion" value="1">1</button>
                 <button class="number" type="submit" name="accion" value="2">2</button>
                 <button class="number" type="submit" name="accion" value="3">3</button>
-                <button class="op" type="submit" name="accion" value="+">+</button>
-                <button class="op" type="submit" name="accion" value="-">-</button>
+                <button class="op" type="submit" name="mas" value="+">+</button>
+                <button class="op" type="submit" name="menos" value="-">-</button>
             </div>
             <div>
                 <button class="number" type="submit" name="accion" value="0">0</button>

@@ -37,7 +37,8 @@
                     $this->accion();
                     $this->borrar();
                     $this->mrc();
-                    $this->m();
+                    $this->mMas();
+                    $this->mMenos();
                     $this->calcular();
                 }
 
@@ -59,12 +60,22 @@
                     }
                 }
 
-                private function m() {
-                    if (!isset($_POST["m"])) {
+                private function mMas() {
+                    if (isset($_POST["m+"])) {
                         $valorMemoria = $this->getMemoria();
-                        $numero = (int)$_POST["operacion"];
-                        $valor = $valorMemoria . $_POST["m"] . $numero;
-                        $_SESSION["memoria"] = eval("return $valor;");
+                        $numero = (float)$_POST["operacion"];
+                        $valor = $valorMemoria + $numero;
+                        $_SESSION["memoria"] = $valor;
+                        $this->borrar();
+                    }
+                }
+        
+                private function mMenos() {
+                    if (isset($_POST["m-"])) {
+                        $valorMemoria = (float)$this->getMemoria();
+                        $numero = (float)$_POST["operacion"];
+                        $valor = $valorMemoria - $numero;
+                        $_SESSION["memoria"] = $valor;
                         $this->borrar();
                     }
                 }
@@ -89,8 +100,8 @@
                 value="<?php echo $calculadora->getResultado() ?>"/>
             <div>
                 <button class="m" type="submit" name="mrc" value="mrc">mrc</button>
-                <button class="m" type="submit" name="m" value="m+">m+</button>
-                <button class="m" type="submit" name="m" value="m-">m-</button>
+                <button class="m" type="submit" name="m+" value="m+">m+</button>
+                <button class="m" type="submit" name="m-" value="m-">m-</button>
                 <button class="op" type="submit" name="accion" value="/">/</button>
             </div>
             <div>
