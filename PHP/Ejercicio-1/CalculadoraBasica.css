@@ -1,0 +1,53 @@
+/*001*/
+body {
+    font-family: Optima, sans-serif;
+    color: black;
+    background-color: #D1B38B;
+    margin-left: 20px;
+    align-content: center;
+}
+
+/*001*/
+form {
+    border-radius: 0.5em;
+    padding: 1em;
+    background-color: #3D4543;
+    margin-bottom: 20px;
+    width: 15.5em;
+}
+
+/*001*/
+div {
+    padding: 0.5em;
+}
+
+/*001*/
+button {
+    padding: 1em;
+    border-radius: 0.3em;
+    width: 4em;
+}
+
+/*010*/
+.result {
+    margin: 3%;
+    background-color: #BCCD95;
+    width: 17em;
+    height: 2em;
+}
+
+/*010*/ /*100*/ /*100*/
+.number, #equals, #delete {
+    background-color: #DCDCDC;
+}
+
+/*010*/
+.m {
+    color: white;
+    background-color: #6F6F6F;
+}
+
+/*010*/
+.op {
+    background-color: #FE4460;
+}
