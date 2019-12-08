@@ -4,4 +4,3 @@ Prácticas de la asignatura Software y Estándares para la Web de Ingeniería In
 * CSS
 * XML
 * JavaScript
-* PHP
